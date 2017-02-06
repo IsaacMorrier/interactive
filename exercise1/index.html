@@ -19,14 +19,14 @@
     
 		body {
       background: #ffeebb;
-			margin: 75px;
-			font-size: 20px;
+			margin: 3em;
+			font-size: 1.5em;
 			text-transform: lowercase;
 			font-family: "Space Mono", "Courier New", Courier, monospace;
 		}
 
     #button {
-      background-color: #ffeebb; /* Green */
+      background-color: #ffeebb;
       border: none;
       color: black;
       text-decoration: underline;
@@ -36,31 +36,17 @@
 		.button-container {
       display: inline-block;
       margin-top: 2em;
-/*
-			position: fixed;
-			bottom: 75px;
-			left: 75px;
-*/
 		}
+    
+    .footer {
+      position: fixed;
+      bottom: 0;
+    }
 
-/*
-		.list-one {
-
-		}
-
-		.list-two {
-			text-indent: 1em;
-		}
-
-		.list-three {
-			text-indent: 2em;
-		}
-
-		.list-four {
-			text-indent: 3em;
-		}
-*/
-
+    .footer a {
+      color: grey;
+      text-decoration: none;
+    }
 	</style>
 	<!-- 
 	***** END CSS ***** 
@@ -233,6 +219,9 @@
 	<div class="button-container">
     <a href="#" id="button">again</a>
 	</div>
+  <div class="footer">
+    <p><a href="../">&#8592;</a></p>
+  </div>
   
 </body>
 
