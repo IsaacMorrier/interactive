@@ -1,0 +1,175 @@
+html, body {
+	background: gray;
+  margin: 0;
+  padding: 0;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.canvas {
+	width: 600px;
+	height: 70%;
+  margin: 0 auto;
+	position: relative;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+.canvas div {
+  
+}
+
+.table {
+  width: 100;
+  border-top: 5px solid black;
+}
+
+#orb {
+  background: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+}
+
+.orange {
+  background: orange;
+  width: 80px;
+  height: 70px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -5px;
+}
+
+#orange-one {
+  left: 120px;
+}
+
+#orange-two {
+  left: 200px;
+  width: 70px;
+  height: 60px;
+}
+
+#orange-three {
+  left: 400px;
+  width: 70px;
+  height: 60px;
+}
+
+#gourd {
+  position: absolute;
+  bottom: -65px;
+  left: 240px;
+}
+
+#gourd div {
+  background-color: darksalmon;
+  border-radius: 100px;
+  position: relative;
+}
+
+#gourd-front {
+  height: 60px;
+  width: 60px;
+  bottom: 60px;
+}
+
+#gourd-back {
+  height: 100px;
+  width: 100px;
+}
+
+#vase {
+  position: absolute;
+  bottom: -5px;
+  left: 350px;
+  height: 170px;
+  width: 60px;
+  background-color: white;
+  overflow: visible;
+}
+
+.flower {
+  position: absolute;
+  bottom: 0;
+}
+
+.stem {
+  width: 5px;
+  background: rgba(70,143,70,1);
+  background: -moz-linear-gradient(top, rgba(70,143,70,1) 0%, rgba(164,230,64,1) 77%, rgba(232,255,99,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(70,143,70,1)), color-stop(77%, rgba(164,230,64,1)), color-stop(100%, rgba(232,255,99,1)));
+  background: -webkit-linear-gradient(top, rgba(70,143,70,1) 0%, rgba(164,230,64,1) 77%, rgba(232,255,99,1) 100%);
+  background: -o-linear-gradient(top, rgba(70,143,70,1) 0%, rgba(164,230,64,1) 77%, rgba(232,255,99,1) 100%);
+  background: -ms-linear-gradient(top, rgba(70,143,70,1) 0%, rgba(164,230,64,1) 77%, rgba(232,255,99,1) 100%);
+  background: linear-gradient(to bottom, rgba(70,143,70,1) 0%, rgba(164,230,64,1) 77%, rgba(232,255,99,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#468f46', endColorstr='#e8ff63', GradientType=0 );
+}
+
+.bud {
+  height: 15px;
+  width: 30px;
+  border-top-left-radius: 10px;
+  background-color: yellow;
+}
+
+#flower-one {
+  left: 20px;
+}
+
+#flower-two {
+  left: 30px;
+}
+
+#flower-three {
+  left: 40px;
+}
+#flower-four {
+  left: 50px;
+}
+
+#flower-one .stem { height: 220px; }
+#flower-two .stem { height: 210px; }
+#flower-three .stem { height: 200px; }
+#flower-four .stem { height: 190px; }
+
+#water {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  background-color: cadetblue;
+  opacity: .5;
+}
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	bottom: 0;
+  left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	bottom: 0;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	bottom: 0;
+	left: 600px;
+	position: absolute;
+}
