@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>haiku 237 - Rafaël Rozendaal</title>
+    
+    <style>
+      
+      .buttons {
+        width: 6em;
+      }
+      
+      .button-silent, .button {
+        display: block;
+        width: 6em;
+        height: 0;
+        margin: 1px 0;
+      }
+      
+      .button {
+        border: solid black 15px;
+      }
+      
+      .button:hover {
+        border: solid white 15px;
+      }
+      
+      #title p {
+        display: inline-block;
+        position: absolute;
+        top: 43%;
+        left: 37%;
+      }
+      
+      #author p {
+        display: inline-block;
+        position: absolute;
+        top: 52%;
+        left: 59%;
+      }
+      
+      #one h1 {
+        position: absolute;
+        top: 3%;
+        left: 46%;        
+      }
+      #one:hover h1,
+      #one:visited h1,
+      #one:focus h1,
+      #one:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 40%;        
+      }
+      
+      #three h1 {
+        position: absolute;
+        top: 22%;
+        left: 43%;         
+      }
+      #three:hover h1,
+      #three:visited h1,
+      #three:focus h1,
+      #three:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 42%;        
+      }
+ 
+      #four h1 {
+        position: absolute;
+        top: 53%;
+        left: 30%;        
+      }
+      #four:hover h1,
+      #four:visited h1,
+      #four:focus h1,
+      #four:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 43%;        
+      }
+ 
+      #five h1 {
+        position: absolute;
+        top: 47%;
+        left: 70%;        
+      }
+      #five:hover h1,
+      #five:visited h1,
+      #five:focus h1,
+      #five:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 44%;        
+      }
+ 
+      #six h1 {
+        position: absolute;
+        top: 58%;
+        left: 60%;        
+      }
+      #six:hover h1,
+      #six:visited h1,
+      #six:focus h1,
+      #six:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 45%;        
+      }
+ 
+      #seven h1 {
+        position: absolute;
+        top: 86%;
+        left: 42%;        
+      }
+      #seven:hover h1,
+      #seven:visited h1,
+      #seven:focus h1,
+      #seven:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 46%;        
+      }
+ 
+      #nine h1 {
+        position: absolute;
+        top: 20%;
+        left: 59%;        
+      }
+      #nine:hover h1,
+      #nine:visited h1,
+      #nine:focus h1,
+      #nine:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 48%;        
+      }
+ 
+/*      THINK 2    */
+      
+      #eleven h1 {
+        position: absolute;
+        top: 72%;
+        left: 58%;        
+      }
+      #eleven:hover h1,
+      #eleven:visited h1,
+      #eleven:focus h1,
+      #eleven:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 50%;        
+      }
+ 
+      #twelve h1 {
+        position: absolute;
+        top: 30%;
+        left: 60%;        
+      }
+      #twelve:hover h1,
+      #twelve:visited h1,
+      #twelve:focus h1,
+      #twelve:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 51%;        
+      }
+ 
+      #thirteen h1 {
+        position: absolute;
+        top: 15%;
+        left: 34%;        
+      }
+      #thirteen:hover h1,
+      #thirteen:visited h1,
+      #thirteen:focus h1,
+      #thirteen:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 52%;        
+      }
+ 
+      #fourteen h1 {
+        position: absolute;
+        top: 85%;
+        left: 57%;        
+      }
+      #fourteen:hover h1,
+      #fourteen:visited h1,
+      #fourteen:focus h1,
+      #fourteen:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 53%;        
+      }
+ 
+      #fifteen h1 {
+        position: absolute;
+        top: 63%;
+        left: 47%;        
+      }
+      #fifteen:hover h1,
+      #fifteen:visited h1,
+      #fifteen:focus h1,
+      #fifteen:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 54%;        
+      }
+ 
+/*      TOO      */
+      
+      #seventeen h1 {
+        position: absolute;
+        top: 73%;
+        left: 35%;        
+      }
+      #seventeen:hover h1,
+      #seventeen:visited h1,
+      #seventeen:focus h1,
+      #seventeen:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 56%;        
+      }
+ 
+      #eighteen h1 {
+        position: absolute;
+        top: 7%;
+        left: 57%;        
+      }
+      #eighteen:hover h1,
+      #eighteen:visited h1,
+      #eighteen:focus h1,
+      #eighteen:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 57%;        
+      }
+ 
+      #nineteen h1 {
+        position: absolute;
+        top: 65%;
+        left: 68%;        
+      }
+      #nineteen:hover h1,
+      #nineteen:visited h1,
+      #nineteen:focus h1,
+      #nineteen:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 58%;        
+      }
+
+/*      MUCH      */
+ 
+      #twentyone h1 {
+        position: absolute;
+        top: 38%;
+        left: 30%;        
+      }
+      #twentyone:hover h1,
+      #twentyone:visited h1,
+      #twentyone:focus h1,
+      #twentyone:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 60%;        
+      }
+ 
+      #twentytwo h1 {
+        position: absolute;
+        top: 37%;
+        left: 70%;        
+      }
+      #twentytwo:hover h1,
+      #twentytwo:visited h1,
+      #twentytwo:focus h1,
+      #twentytwo:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 61.5%;        
+      }
+ 
+      #twentythree h1 {
+        position: absolute;
+        top: 60%;
+        left: 38%;        
+      }
+      #twentythree:hover h1,
+      #twentythree:visited h1,
+      #twentythree:focus h1,
+      #twentythree:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 62.5%;        
+      }
+ 
+      #twentyfour h1 {
+        position: absolute;
+        top: 17%;
+        left: 67%;        
+      }
+      #twentyfour:hover h1,
+      #twentyfour:visited h1,
+      #twentyfour:focus h1,
+      #twentyfour:visited h1 {
+        position: absolute;
+        top: 45%;
+        left: 63.5%;        
+      }
+ 
+    
+    </style>
+  </head>
+  <body>
+      <div class=buttons>
+        <div class="button-silent" id="title"><p>haiku 237</p></div>
+        <div class="button" id="one"><h1>i</h1></div>
+        <div class="button-silent"></div>
+        <div class="button" id="three"><h1>t</h1></div>
+        <div class="button" id="four"><h1>h</h1></div>
+        <div class="button" id="five"><h1>i</h1></div>
+        <div class="button" id="six"><h1>n</h1></div>
+        <div class="button" id="seven"><h1>k</h1></div>
+        <div class="button-silent"></div>
+        <div class="button" id="nine"><h1>i</h1></div>
+        <div class="button-silent"></div>
+        <div class="button" id="eleven"><h1>t</h1></div>
+        <div class="button" id="twelve"><h1>h</h1></div>
+        <div class="button" id="thirteen"><h1>i</h1></div>
+        <div class="button" id="fourteen"><h1>n</h1></div>
+        <div class="button" id="fifteen"><h1>k</h1></div>
+        <div class="button-silent"></div>
+        <div class="button" id="seventeen"><h1>t</h1></div>
+        <div class="button" id="eighteen"><h1>o</h1></div>
+        <div class="button" id="nineteen"><h1>o</h1></div>
+        <div class="button-silent"></div>
+        <div class="button" id="twentyone"><h1>m</h1></div>
+        <div class="button" id="twentytwo"><h1>u</h1></div>
+        <div class="button" id="twentythree"><h1>c</h1></div>
+        <div class="button" id="twentyfour"><h1>h</h1></div>
+        <div class="button-silent" id="author"><p>Rafaël Rozendaal</p></div>
+      </div>
+    
+    <p style="display: block; position: fixed; bottom: 3em; left: 1em; color: gray;"><a style="text-decoration: none; color: gray" href="variation14.html">&#8592;</a> | <a style="text-decoration: none; color: gray" href="variation16.html">&#8649;</a></p>
+  </body>
+</html>

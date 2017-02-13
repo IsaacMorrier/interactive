@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>haiku 237 - Rafaël Rozendaal</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Space+Mono" rel="stylesheet">
+    <style>
+      
+      .title, .author, .hand {
+        font-family: 'Space Mono', sans-serif;
+      }
+      
+      .title, .author {
+        padding-left: 2em;
+      }
+      
+      .author {
+        position: fixed;
+        bottom: 0;
+      }
+      
+      @keyframes rotate {
+        from {
+          -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+        }
+        to {
+          -webkit-transform: rotateZ(270deg);
+          transform: rotateZ(270deg);  
+        }
+      }
+      
+      .container {
+        text-align: center;
+      }
+      
+      .hand {
+        line-height: 0;
+        margin: 0 auto;
+        padding: .25em;
+        font-size: 1.5em;
+        position: relative;
+        top: 5em;
+        left: 5em;
+        text-align: right;
+        display: block;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-name: rotate;
+      }
+      
+      .one {
+        width: 8em;
+        animation-duration: 86400s;
+        color: black;
+      }      
+      .two {
+        width: 20em;
+        animation-duration: 3600s;
+        color: black;
+        z-index: -50;
+      }      
+      .three {
+        width: 30em;
+        animation-duration: 60s;
+        color: red;
+        z-index: -100;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <p class="title">haiku 237</p>
+    <div class="container">
+      <div class="hand one"><p>i think</p></div>
+      <div class="hand two"><p>i think</p></div>
+      <div class="hand three"><p>too much</p></div>
+    </div>
+    <p class="author">Rafaël Rozendaal</p>
+    
+    <p style="display: block; position: fixed; bottom: 3em; left: 1em; color: gray;"><a style="text-decoration: none; color: gray" href="variation22.html">&#8592;</a> | <a style="text-decoration: none; color: gray" href="variation24.html">&#8594;</a></p>
+  </body>
+</html>

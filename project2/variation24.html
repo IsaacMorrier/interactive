@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>haiku 237 - Rafaël Rozendaal</title>
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+    <style>
+      
+      @keyframes animation1 {
+        from {
+          -webkit-transform: rotateY(0deg); /* Safari */
+          transform: rotateY(0deg);
+        }
+        to {
+         -webkit-transform: rotateY(360deg); /* Safari */
+          transform: rotateY(360deg);
+        }
+      }      
+      @keyframes animation2 {
+        from {
+          -webkit-transform: rotateY(-20deg); /* Safari */
+          transform: rotateY(-20deg);
+        }
+        to {
+         -webkit-transform: rotateY(340deg); /* Safari */
+          transform: rotateY(340deg);
+        }
+      }     
+      @keyframes animation3 {
+        from {
+          -webkit-transform: rotateY(-40deg); /* Safari */
+          transform: rotateY(-40deg);
+        }
+        to {
+         -webkit-transform: rotateY(320deg); /* Safari */
+          transform: rotateY(320deg);
+        }
+      }
+      @keyframes animation4 {
+        from {
+          -webkit-transform: rotateY(-60deg); /* Safari */
+          transform: rotateY(-60deg);
+        }
+        to {
+         -webkit-transform: rotateY(300deg); /* Safari */
+          transform: rotateY(300deg);
+        }
+      }
+      
+      body {
+        background-color: black;
+        color: white;
+      }
+      
+      div {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .spin {
+        margin: 0 auto;
+        width: 300px;
+        color: black;
+        font-family: 'Kumar One Outline', serif;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      
+      .animation1 { animation-name: animation1; }
+      .animation2 { animation-name: animation2; }
+      .animation3 { animation-name: animation3; }
+      .animation4 { animation-name: animation4; }
+      
+      .spin p {
+        font-size: 3em;
+        position: relative;
+        top: 36%;
+        line-height: 0;
+        height: 0;
+        width: 300px;
+        display: inline-block;
+        text-align: center;
+        z-index: 1000;
+      }
+      
+      .white {
+        background-color: white;
+        height: 25px;
+      }
+      
+      .tear {
+        width: 150px;
+        height: 25px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        background: black;
+      }
+      
+      .middle {
+        height: 300px;
+        border-radius: 150px;
+        background-color: white;
+        margin: -2px;
+      }
+      
+      .top-left { border-bottom-right-radius: 25px; }
+      .top-right { border-bottom-left-radius: 25px; }
+      .bottom-left { border-top-right-radius: 25px; }
+      .bottom-right { border-top-left-radius: 25px; }
+      
+      .container {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .c {
+        text-align: center;
+      }
+      
+      .small {
+        font-size: 24px !important;
+        line-height: 1.5 !important;
+        font-weight: bold;
+        position: relative;
+        top: 30% !important;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="spin animation1"><div class="white"><div class="top-left tear"></div><div class="top-right tear"></div></div><div class="middle"><p class="c">i think</p></div><div class="white"><div class="bottom-left tear"></div><div class="bottom-right tear"></div></div></div> <div class="spin animation2"><div class="white"><div class="top-left tear"></div><div class="top-right tear"></div></div><div class="middle"><p class="c">i think</p></div><div class="white"><div class="bottom-left tear"></div><div class="bottom-right tear"></div></div></div> <div class="spin animation3"><div class="white"><div class="top-left tear"></div><div class="top-right tear"></div></div><div class="middle"><p class="c">too much</p></div><div class="white"><div class="bottom-left tear"></div><div class="bottom-right tear"></div></div></div>
+      <div class="spin animation4"><div class="white"><div class="top-left tear"></div><div class="top-right tear"></div></div><div class="middle"><p class="c small">haiku 237<br>Rafaël Rozendaal</p></div><div class="white"><div class="bottom-left tear"></div><div class="bottom-right tear"></div></div></div>
+    </div>
+
+    <p style="display: block; position: fixed; bottom: 3em; left: 1em; color: gray;"><a style="text-decoration: none; color: gray" href="variation23.html">&#8592;</a> | <a style="text-decoration: none; color: gray" href="variation25.html">&#8594;</a></p>
+  </body>
+</html>
