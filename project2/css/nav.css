@@ -1,0 +1,16 @@
+.nav {
+  display: block;
+  position: fixed;
+  bottom: 3em;
+  left: 1em;
+  color: gray;
+}
+
+.nav a {
+  text-decoration: none;
+  color: gray;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+}
