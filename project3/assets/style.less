@@ -1,9 +1,13 @@
 html, body {
-  background: ivory;
+  background: gold;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.character-definition {
+  display: none;
 }
 
 //VARIABLES AND MIXINS
@@ -12,46 +16,98 @@ html, body {
 @min-height: 2.5em;
 @min-width: .5em;
 
+@character-height: 16vh;
+
 @radius: 2em;
 
 .stroke {
   background: black;
 }
 
-
-//LETTER COMPONENTS
+//CHARACTER COMPONENTS
 
 .square {
   width: @stroke-width;
   height: @stroke-width;
   max-width: @stroke-width !important;
-  background: #bfb;
+//  background: #bfb;
 }
 
 .horizontal {
   height: @stroke-width;
-  background: #ffb;
+//  background: #ffb;
 }
 
 .vertical {
   width: @stroke-width;
   max-width: @stroke-width !important;
-  background: #fbf;
+//  background: #fbf;
 }
 
 .both {
-  background: #bff;
+//  background: #bff;
 }
 
-.letter {
+.n-characters-4 > * {
+    width: 24%;
+}
+
+.n-characters-8 > * {
+    width: 11.5%;
+}
+
+.n-characters-11 > * {
+    width: 8.09%;
+}
+
+.n-characters-12 > * {
+    width: 7.33%;
+}
+
+.n-characters-17 > * {
+    width: 4.88%;
+}
+
+.character-universals {
+  display: inline-block;
+  position: relative;
+  height: @character-height;
+  line-height: 0;
+  margin: 0 .5%;
+  padding: 0;
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.character {
+  .character-universals;
   .aa, .ac, .ca, .cc, .ea, .ec, .fa, .fc {.square}
   .ab, .cb, .eb, .fb {.horizontal}
   .ba, .bc, .da, .dc, {.vertical}
   .bb, .db {.both}
+  
 }
 
-.letter-narrow {
-  
+.character-narrow {
+  .character-universals;
+  .aa, .ac, .ca, .cc, .ea, .ec, .fa, .fc {.horizontal}
+  .ab, .cb, .eb, .fb {.square}
+  .ba, .bc, .da, .dc, {.both}
+  .bb, .db {.vertical}
+}
+
+
+.character-wide {
+  .character;
+}
+
+.character-punctuation {
+  .character-universals;
+  width: @stroke-width;
+  .aa, .ca, .ea, .fa {.square;}
+  .ba, .da {.vertical}
 }
 
 .tl {
@@ -74,22 +130,15 @@ html, body {
   border-bottom-right-radius: @radius;
 }
 
-@letter-width: 2 * @stroke-width + @min-width;
-@letter-height: 3 * @stroke-width + (2 * @min-height);
-
-@letter-width-narrow: 2 * @min-width + @stroke-width;
-@letter-width-wide: 2 * @min-width + (3 * @stroke-width);
-@punctuation-width: 2 * @stroke-width;
-
 table, tr, td {
   border-collapse: collapse;
   box-sizing: border-box;
   table-layout: fixed;
 }
 
-.letter-table {
-  height:100%;
-  width:100%;
+.character-table {
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -97,30 +146,8 @@ table, tr, td {
   right: 0;
 }
 
-.letter {
-  display: inline-block;
-  position: relative;
-  width: 18%;
-  height: @letter-height;
-  line-height: 0;
-  margin: 0 2% 0 0;
-  padding: 0;
-  * {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-}
-
-.letter-narrow {
-  .letter;
-}
-
-.letter-wide {
-  .letter;
-}
-
 .A {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -136,7 +163,7 @@ table, tr, td {
 }
 
 .B {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -153,7 +180,7 @@ table, tr, td {
 }
 
 .C {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -167,7 +194,7 @@ table, tr, td {
 }
 
 .D {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -183,7 +210,7 @@ table, tr, td {
 }
 
 .E {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .stroke; };
@@ -197,7 +224,7 @@ table, tr, td {
 }
 
 .F {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .stroke; };
@@ -209,7 +236,7 @@ table, tr, td {
 }
 
 .G {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -225,7 +252,7 @@ table, tr, td {
 }
 
 .H {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -240,29 +267,20 @@ table, tr, td {
 }
 
 .I {
-  .letter-narrow;
-  .aa { .horizontal; .stroke; };
-  .ab { .square; .stroke; };
-  .ac { .horizontal; .stroke; };
-  .ba { .both; };
-  .bb { .vertical; .stroke; };
-  .bc { .both; };
-  .ca { .horizontal; };
-  .cb { .square; .stroke; };
-  .cc { .horizontal; };
-  .da { .both; };
-  .db { .vertical; .stroke; };
-  .dc { .both; };
-  .ea { .horizontal; .stroke; };
-  .eb { .square; .stroke; };
-  .ec { .horizontal; .stroke; };
-  .fa { .horizontal; };
-  .fb { .square; };
-  .fc { .horizontal; };
+  .character-narrow;
+  .aa { .stroke; };
+  .ab { .stroke; };
+  .ac { .stroke; };
+  .bb { .stroke; };
+  .cb { .stroke; };
+  .db { .stroke; };
+  .ea { .stroke; };
+  .eb { .stroke; };
+  .ec { .stroke; };
 }
 
 .J {
-  .letter;
+  .character;
   .ac { .stroke; };
   .bc { .stroke; };
   .cc { .stroke; };
@@ -274,7 +292,7 @@ table, tr, td {
 }
 
 .K {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -289,7 +307,7 @@ table, tr, td {
 }
 
 .L {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ba { .stroke; };
   .ca { .stroke; };
@@ -300,7 +318,7 @@ table, tr, td {
 }
 
 .M {
-  .letter-wide;
+  .character-wide;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -315,7 +333,7 @@ table, tr, td {
 }
 
 .N {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -330,7 +348,7 @@ table, tr, td {
 }
 
 .O {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -346,7 +364,7 @@ table, tr, td {
 }
 
 .P {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -360,7 +378,7 @@ table, tr, td {
 }
 
 .Q {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -377,7 +395,7 @@ table, tr, td {
 }
 
 .R {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -393,7 +411,7 @@ table, tr, td {
 }
 
 .S {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -410,29 +428,18 @@ table, tr, td {
 
 
 .T {
-  .letter-narrow;
-  .aa { .horizontal; .stroke; };
-  .ab { .square; .stroke; };
-  .ac { .horizontal; .stroke; };
-  .ba { .both; };
-  .bb { .vertical; .stroke; };
-  .bc { .both; };
-  .ca { .horizontal; };
-  .cb { .square; .stroke; };
-  .cc { .horizontal; };
-  .da { .both; };
-  .db { .vertical; .stroke; };
-  .dc { .both; };
-  .ea { .horizontal; };
-  .eb { .square; .stroke; };
-  .ec { .horizontal; };
-  .fa { .horizontal; };
-  .fb { .square; };
-  .fc { .horizontal; };
+  .character-narrow;
+  .aa { .stroke; };
+  .ab { .stroke; };
+  .ac { .stroke; };
+  .bb { .stroke; };
+  .cb { .stroke; };
+  .db { .stroke; };
+  .eb { .stroke; };
 }
 
 .U {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -447,7 +454,7 @@ table, tr, td {
 }
 
 .V {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -460,7 +467,7 @@ table, tr, td {
 }
 
 .W {
-  .letter-wide;
+  .character-wide;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -475,7 +482,7 @@ table, tr, td {
 }
 
 .X {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .bl; };
@@ -490,7 +497,7 @@ table, tr, td {
 }
 
 .Y {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -504,7 +511,7 @@ table, tr, td {
 }
 
 .Z {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; };
   .ac { .stroke; };
@@ -517,30 +524,19 @@ table, tr, td {
 }
 
 .one {
-  .letter;
-  width: @letter-width-narrow;
-  .aa { .horizontal; .stroke; };
-  .ab { .square; .stroke; };
-  .ac { .horizontal; };
-  .ba { .both; };
-  .bb { .vertical; .stroke; };
-  .bc { .both; };
-  .ca { .horizontal; };
-  .cb { .square; .stroke; };
-  .cc { .horizontal; };
-  .da { .both; };
-  .db { .vertical; .stroke; };
-  .dc { .both; };
-  .ea { .horizontal; .stroke; };
-  .eb { .square; .stroke; };
-  .ec { .horizontal; .stroke; };
-  .fa { .horizontal; };
-  .fb { .square; };
-  .fc { .horizontal; };
+  .character-narrow;
+  .aa { .stroke; };
+  .ab { .stroke; };
+  .bb { .stroke; };
+  .cb { .stroke; };
+  .db { .stroke; };
+  .ea { .stroke; };
+  .eb { .stroke; };
+  .ec { .stroke; };
 }
 
 .two {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -555,7 +551,7 @@ table, tr, td {
 }
 
 .three {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -569,7 +565,7 @@ table, tr, td {
 }
 
 .four {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ac { .stroke; };
   .ba { .stroke; };
@@ -582,7 +578,7 @@ table, tr, td {
 }
 
 .five {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; };
   .ac { .stroke; };
@@ -597,7 +593,7 @@ table, tr, td {
 }
 
 .six {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -613,7 +609,7 @@ table, tr, td {
 }
 
 .seven {
-  .letter;
+  .character;
   .aa { .stroke; };
   .ab { .stroke; };
   .ac { .stroke; };
@@ -626,7 +622,7 @@ table, tr, td {
 }
 
 .eight {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -643,7 +639,7 @@ table, tr, td {
 }
 
 .nine {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; };
   .ac { .tr; };
@@ -657,7 +653,7 @@ table, tr, td {
 }
 
 .zero {
-  .letter;
+  .character;
   .aa { .tl; };
   .ab { .stroke; }; 
   .ac { .tr; };
@@ -673,153 +669,44 @@ table, tr, td {
 }
 
 .period {
-  .letter;
-  width: @punctuation-width;
-  .aa { .square; };
-  .ab { .square; };
-  .ba { .vertical; };
-  .bb { .vertical; };
-  .ca { .square; };
-  .cb { .square; };
-  .da { .vertical; };
-  .db { .vertical; };
-  .ea { .square; .stroke; };
-  .eb { .square; };
-  .fa { .square; };
-  .fb { .square; };
+  .character-punctuation;
+  .ea { .stroke; };
+
 }
 
 .exclamation-point {
-  .letter;
-  width: @punctuation-width;
-  .aa { .square; .stroke; };
-  .ab { .square; };
-  .ba { .vertical; .stroke; };
-  .bb { .vertical; };
-  .ca { .square; .stroke; };
-  .cb { .square; };
-  .da { .vertical; };
-  .db { .vertical; };
-  .ea { .square; .stroke; };
-  .eb { .square; };
-  .fa { .square; };
-  .fb { .square; };
+  .character-punctuation;
+  .aa { .stroke; };
+  .ba { .stroke; };
+  .ca { .stroke; };
+  .ea { .stroke; };
 }
 
 .comma {
-  .letter;
-  width: @punctuation-width;
-  .aa { .square; };
-  .ab { .square; };
-  .ba { .vertical; };
-  .bb { .vertical; };
-  .ca { .square; };
-  .cb { .square; };
-  .da { .vertical; .stroke; };
-  .db { .vertical; };
-  .ea { .square; .br; };
-  .eb { .square; };
-  .fa { .square; };
-  .fb { .square; };
+  .character-punctuation;
+  .da { .stroke; };
+  .ea { .br; };
 }
 
 .colon {
-  .letter;
-  width: @punctuation-width;
-  .aa { .square; };
-  .ab { .square; };
-  .ba { .vertical; };
-  .bb { .vertical; };
-  .ca { .stroke; };
-  .cb { .square; };
-  .da { .vertical; };
-  .db { .vertical; };
-  .ea { .square; .stroke; };
-  .eb { .square; };
-  .fa { .square; };
-  .fb { .square; };
+  .character-punctuation;
+  .ca { .stroke; }
+  .ea { .stroke; };
 }
 
 .semi-colon {
-  .letter;
-  width: @punctuation-width;
-  .aa { .square; };
-  .ab { .square; };
-  .ba { .vertical; };
-  .bb { .vertical; };
-  .ca { .square; .stroke; };
-  .cb { .square; };
-  .da { .vertical; };
-  .db { .vertical; };
-  .ea { .square; .br; };
-  .eb { .square; };
-  .fa { .square; };
-  .fb { .square; };
+  .character-punctuation;
+  .ca { .stroke; };
+  .ea { .br; };
 }
 
 .l-quote {
-  .letter;
-  width: @stroke-width;
-  .aa { .square; .tl; };
-  .ba { .vertical; .stroke };
-  .ca { .square; };
-  .da { .vertical; };
-  .ea { .square; };
-  .fa { .square; };
+  .character-punctuation;
+  .aa { .tl; };
+  .ba { .stroke };
 }
 .r-quote, .apostraphe {
-  .letter;
-  width: @stroke-width;
-  .aa { .square; .stroke; };
-  .ba { .vertical; .br };
-  .ca { .square; };
-  .da { .vertical; };
-  .ea { .square; };
-  .fa { .square; };
-}
-
-.l-d-quote {
-  .letter;
-  width: 3 * @stroke-width;
-  .aa { .square; .tl; };
-  .ab { .square; };
-  .ac { .square; .tl; };
-  .ba { .vertical; .stroke };
-  .bb { .vertical };
-  .bc { .vertical; .stroke };
-  .ca { .square; };
-  .cb { .square; };
-  .cc { .square; };
-  .da { .vertical; };
-  .db { .vertical; };
-  .dc { .vertical; };
-  .ea { .square; };
-  .eb { .square; };
-  .ec { .square; };
-  .fa { .square; };
-  .fb { .square; };
-  .fc { .square; };
-}
-
-.r-d-quote {
-  .letter;
-  width: 3 * @stroke-width;
-  .aa { .square; .stroke; };
-  .ab { .square; };
-  .ac { .square; .stroke; };
-  .ba { .vertical; .br };
-  .bb { .vertical };
-  .bc { .vertical; .br };
-  .ca { .square; };
-  .cb { .square; };
-  .cc { .square; };
-  .da { .vertical; };
-  .db { .vertical; };
-  .dc { .vertical; };
-  .ea { .square; };
-  .eb { .square; };
-  .ec { .square; };
-  .fa { .square; };
-  .fb { .square; };
-  .fc { .square; };
+  .character-punctuation;
+  .aa { .stroke; };
+  .ba { .br };
 }
