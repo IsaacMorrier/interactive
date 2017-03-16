@@ -2993,34 +2993,3 @@ td {
   background: black;
   border-bottom-right-radius: 2em;
 }
-html,
-body {
-  background: gold;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.character-definition {
-  display: none;
-}
-#input-anchor {
-  height: 0;
-  width: 0;
-}
-#input-window {
-  position: fixed;
-  top: 4em;
-  left: 4em;
-  background: gray;
-  box-shadow: 5px 5px 5px black;
-  padding: 1em;
-  height: auto;
-  width: 16em;
-  z-index: 10000;
-}
-.input-line {
-  margin-bottom: 0 0 .25em 0;
-  height: 1em;
-  width: 100%;
-}

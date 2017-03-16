@@ -7,15 +7,23 @@
   <title>Responsive Typeface Table</title>
   <link rel="stylesheet" type="text/css" href="assets/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 </head>
   
 <body>
-  <div class="letters n-characters-4">DMCA</div>
-  <div class="letters n-characters-17">INTERDISCIPLINARY</div>
-  <div class="letters n-characters-4">ARTS</div>
-  <div class="letters n-characters-8">WORKSHOP</div>
-  <div class="letters n-characters-12">THURSDAY 8PM</div>
-  <div class="letters n-characters-11">149 YORK ST</div>
+  
+  <div id="input-anchor">
+    <div id="input-window">
+      <form id="input-form">
+        <input type="text" class="input-line" id="inputLine1" value="DMCA">
+        <input type="text" class="input-line" value="ARTS">
+        <input type="text" class="input-line" value="FAIR">
+      </form>
+    </div>
+  </div>
+  
+  <div id="line1" class="letters n-characters-4"></div>
+  
   <div>
     <div class="character-definition" data-character=" ">
       <div class="character">
@@ -1572,8 +1580,9 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/render-characters.js" ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="assets/main.js" ></script>
 </body>
 
 </html>
