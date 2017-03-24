@@ -2,7 +2,7 @@
 
 @stroke-width: .5em;
 @min-height: 2.5em;
-@min-width: .5em;
+@min-width: 6em;
 
 @character-height: 16vh;
 
@@ -36,32 +36,28 @@
 //  background: #bff;
 }
 
-.n-characters-4 > * {
-    width: 24%;
+table, tr, td {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  table-layout: fixed;
 }
 
-.n-characters-8 > * {
-    width: 11.5%;
+.letters {
+  width: 100%;
 }
 
-.n-characters-11 > * {
-    width: 8.09%;
-}
-
-.n-characters-12 > * {
-    width: 7.33%;
-}
-
-.n-characters-17 > * {
-    width: 4.88%;
+.character-table {
+  height: 100%;
+  width: 100%;
 }
 
 .character-universals {
   display: inline-block;
   position: relative;
   height: @character-height;
+  min-width: @min-width;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   * {
     margin: 0 !important;
@@ -97,41 +93,62 @@
   .aa, .ca, .ea, .fa {.square;}
   .ba, .da {.vertical}
 }
-
+//top left
 .tl {
   .stroke;
   border-top-left-radius: @radius;
 }
-
+//top right
 .tr {
   .stroke;
   border-top-right-radius: @radius;
 }
-
+//bottom left
 .bl {
   .stroke;
   border-bottom-left-radius: @radius;
 }
-
+//bottom right
 .br {
   .stroke;
   border-bottom-right-radius: @radius;
 }
 
-table, tr, td {
-  border-collapse: collapse;
-  box-sizing: border-box;
-  table-layout: fixed;
+.a-l {
+  .character;
+  .ca { .stroke; };
+  .cb { .stroke; };
+  .cc { .tr; };
+  .da { .tl; };
+  .dc { .stroke; };
+  .ea { .bl; };
+  .eb { .br; };
+  .ec { .stroke; };
 }
 
-.character-table {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.b-l {
+  .character;
+  .aa { .stroke; };
+  .ba { .stroke; };
+  .ca { .stroke; };
+  .cb { .stroke; };
+  .cc { .tr; };
+  .da { .stroke; };
+  .dc { .stroke; };
+  .ea { .stroke; };
+  .eb { .stroke; };
+  .ec { .br; };
+}
+
+.c-l {
+  .character;
+  .ca { .tl; };
+  .cb { .stroke; };
+  .cc { .stroke; };
+  .da { .stroke; };
+  .ea { .bl; };
+  .eb { .stroke; };
+  .ec { .br; };
 }
 
 .A {
@@ -393,7 +410,7 @@ table, tr, td {
   .cb { .stroke; };
   .cc { .br; };
   .da { .stroke; };
-  .dc { .stroke; };
+  .dc { .tr; };
   .ea { .stroke; };
   .ec { .stroke; };
 }
@@ -404,10 +421,11 @@ table, tr, td {
   .ab { .stroke; };
   .ac { .tr; };
   .ba { .stroke; };
+//  .bc { .stroke; };
   .ca { .bl; };
   .cb { .stroke; };
   .cc { .tr; };
-  .da { .tr; };
+  .da { .stroke; };
   .dc { .stroke; };
   .ea { .bl; };
   .eb { .stroke; };
@@ -697,4 +715,8 @@ table, tr, td {
   .character-punctuation;
   .aa { .stroke; };
   .ba { .br };
+}
+
+.space {
+  .character;
 }

@@ -14,27 +14,27 @@
   width: 0.5em;
   max-width: 0.5em !important;
 }
-.n-characters-4 > * {
-  width: 24%;
+table,
+tr,
+td {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  table-layout: fixed;
 }
-.n-characters-8 > * {
-  width: 11.5%;
+.letters {
+  width: 100%;
 }
-.n-characters-11 > * {
-  width: 8.09%;
-}
-.n-characters-12 > * {
-  width: 7.33%;
-}
-.n-characters-17 > * {
-  width: 4.88%;
+.character-table {
+  height: 100%;
+  width: 100%;
 }
 .character-universals {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .character-universals * {
@@ -45,8 +45,9 @@
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .character * {
@@ -82,8 +83,9 @@
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .character-narrow * {
@@ -117,8 +119,9 @@
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .character-wide * {
@@ -154,8 +157,9 @@
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -192,28 +196,211 @@
   background: black;
   border-bottom-right-radius: 2em;
 }
-table,
-tr,
-td {
-  border-collapse: collapse;
-  box-sizing: border-box;
-  table-layout: fixed;
+.a-l {
+  display: inline-block;
+  position: relative;
+  height: 16vh;
+  min-width: 6em;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
 }
-.character-table {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.a-l * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.a-l .aa,
+.a-l .ac,
+.a-l .ca,
+.a-l .cc,
+.a-l .ea,
+.a-l .ec,
+.a-l .fa,
+.a-l .fc {
+  width: 0.5em;
+  height: 0.5em;
+  max-width: 0.5em !important;
+}
+.a-l .ab,
+.a-l .cb,
+.a-l .eb,
+.a-l .fb {
+  height: 0.5em;
+}
+.a-l .ba,
+.a-l .bc,
+.a-l .da,
+.a-l .dc {
+  width: 0.5em;
+  max-width: 0.5em !important;
+}
+.a-l .ca {
+  background: black;
+}
+.a-l .cb {
+  background: black;
+}
+.a-l .cc {
+  background: black;
+  border-top-right-radius: 2em;
+}
+.a-l .da {
+  background: black;
+  border-top-left-radius: 2em;
+}
+.a-l .dc {
+  background: black;
+}
+.a-l .ea {
+  background: black;
+  border-bottom-left-radius: 2em;
+}
+.a-l .eb {
+  background: black;
+  border-bottom-right-radius: 2em;
+}
+.a-l .ec {
+  background: black;
+}
+.b-l {
+  display: inline-block;
+  position: relative;
+  height: 16vh;
+  min-width: 6em;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+.b-l * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.b-l .aa,
+.b-l .ac,
+.b-l .ca,
+.b-l .cc,
+.b-l .ea,
+.b-l .ec,
+.b-l .fa,
+.b-l .fc {
+  width: 0.5em;
+  height: 0.5em;
+  max-width: 0.5em !important;
+}
+.b-l .ab,
+.b-l .cb,
+.b-l .eb,
+.b-l .fb {
+  height: 0.5em;
+}
+.b-l .ba,
+.b-l .bc,
+.b-l .da,
+.b-l .dc {
+  width: 0.5em;
+  max-width: 0.5em !important;
+}
+.b-l .aa {
+  background: black;
+}
+.b-l .ba {
+  background: black;
+}
+.b-l .ca {
+  background: black;
+}
+.b-l .cb {
+  background: black;
+}
+.b-l .cc {
+  background: black;
+  border-top-right-radius: 2em;
+}
+.b-l .da {
+  background: black;
+}
+.b-l .dc {
+  background: black;
+}
+.b-l .ea {
+  background: black;
+}
+.b-l .eb {
+  background: black;
+}
+.b-l .ec {
+  background: black;
+  border-bottom-right-radius: 2em;
+}
+.c-l {
+  display: inline-block;
+  position: relative;
+  height: 16vh;
+  min-width: 6em;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+.c-l * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.c-l .aa,
+.c-l .ac,
+.c-l .ca,
+.c-l .cc,
+.c-l .ea,
+.c-l .ec,
+.c-l .fa,
+.c-l .fc {
+  width: 0.5em;
+  height: 0.5em;
+  max-width: 0.5em !important;
+}
+.c-l .ab,
+.c-l .cb,
+.c-l .eb,
+.c-l .fb {
+  height: 0.5em;
+}
+.c-l .ba,
+.c-l .bc,
+.c-l .da,
+.c-l .dc {
+  width: 0.5em;
+  max-width: 0.5em !important;
+}
+.c-l .ca {
+  background: black;
+  border-top-left-radius: 2em;
+}
+.c-l .cb {
+  background: black;
+}
+.c-l .cc {
+  background: black;
+}
+.c-l .da {
+  background: black;
+}
+.c-l .ea {
+  background: black;
+  border-bottom-left-radius: 2em;
+}
+.c-l .eb {
+  background: black;
+}
+.c-l .ec {
+  background: black;
+  border-bottom-right-radius: 2em;
 }
 .A {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .A * {
@@ -287,8 +474,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .B * {
@@ -366,8 +554,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .C * {
@@ -437,8 +626,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .D * {
@@ -512,8 +702,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .E * {
@@ -579,8 +770,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .F * {
@@ -640,8 +832,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .G * {
@@ -718,8 +911,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .H * {
@@ -788,8 +982,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .I * {
@@ -850,8 +1045,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .J * {
@@ -913,8 +1109,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .K * {
@@ -985,8 +1182,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .L * {
@@ -1043,8 +1241,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .M * {
@@ -1114,8 +1313,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .N * {
@@ -1185,8 +1385,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .O * {
@@ -1262,8 +1463,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .P * {
@@ -1331,8 +1533,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .Q * {
@@ -1413,8 +1616,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .R * {
@@ -1477,6 +1681,7 @@ td {
 }
 .R .dc {
   background: black;
+  border-top-right-radius: 2em;
 }
 .R .ea {
   background: black;
@@ -1488,8 +1693,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .S * {
@@ -1548,7 +1754,6 @@ td {
 }
 .S .da {
   background: black;
-  border-top-right-radius: 2em;
 }
 .S .dc {
   background: black;
@@ -1568,8 +1773,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .T * {
@@ -1624,8 +1830,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .U * {
@@ -1696,8 +1903,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .V * {
@@ -1762,8 +1970,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .W * {
@@ -1834,8 +2043,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .X * {
@@ -1908,8 +2118,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .Y * {
@@ -1977,8 +2188,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .Z * {
@@ -2043,8 +2255,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .one * {
@@ -2102,8 +2315,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .two * {
@@ -2176,8 +2390,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .three * {
@@ -2249,8 +2464,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .four * {
@@ -2314,8 +2530,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .five * {
@@ -2387,8 +2604,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .six * {
@@ -2465,8 +2683,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .seven * {
@@ -2531,8 +2750,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .eight * {
@@ -2615,8 +2835,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .nine * {
@@ -2685,8 +2906,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
 }
 .zero * {
@@ -2756,8 +2978,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2785,8 +3008,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2823,8 +3047,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2856,8 +3081,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2888,8 +3114,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2921,8 +3148,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2955,8 +3183,9 @@ td {
   display: inline-block;
   position: relative;
   height: 16vh;
+  min-width: 6em;
   line-height: 0;
-  margin: 0 .5%;
+  margin: 0;
   padding: 0;
   width: 0.5em;
 }
@@ -2992,4 +3221,42 @@ td {
 .apostraphe .ba {
   background: black;
   border-bottom-right-radius: 2em;
+}
+.space {
+  display: inline-block;
+  position: relative;
+  height: 16vh;
+  min-width: 6em;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+.space * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.space .aa,
+.space .ac,
+.space .ca,
+.space .cc,
+.space .ea,
+.space .ec,
+.space .fa,
+.space .fc {
+  width: 0.5em;
+  height: 0.5em;
+  max-width: 0.5em !important;
+}
+.space .ab,
+.space .cb,
+.space .eb,
+.space .fb {
+  height: 0.5em;
+}
+.space .ba,
+.space .bc,
+.space .da,
+.space .dc {
+  width: 0.5em;
+  max-width: 0.5em !important;
 }
