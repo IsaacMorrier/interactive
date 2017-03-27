@@ -1,7 +1,11 @@
 //@import "letters";
 
+@background-color: gold;
+@paper-color: white;
+@stroke-color: black;
+
 html, body {
-  background: gold;
+  background: @background-color;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -9,9 +13,7 @@ html, body {
   width: 100%;
 
   @media print {
-    background: white;
-    height: 100% !imporant;
-    width: 100% !important;
+    background: @paper-color;
   }
 }
 
@@ -39,7 +41,7 @@ html, body {
   background: white;
   height: auto;
   z-index: 9999;
-  border: @stroke-width solid black;
+  border: @stroke-width solid @stroke-color;
   form {
     margin-bottom: -2px;
   }
@@ -60,7 +62,7 @@ html, body {
   width: 100%;
   height: 1.5em;
   text-align: right;
-  border-bottom: @stroke-width solid black;
+  border-bottom: @stroke-width solid @stroke-color;
   i {
     margin: .25em;
   }
@@ -80,11 +82,21 @@ html, body {
   position: absolute;
   bottom: .25em;
   left: .25em;
-  border: @stroke-width solid black;
+  border: @stroke-width solid @stroke-color;
   &:hover {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
     bottom: .2em;
     left: .3em;
+  }
+}
+
+.only-print {
+  display: none;
+  @media print {
+    display: block;
+    position: fixed;
+    font-size: 2.25em;
+    color: white;
   }
 }
 
@@ -93,7 +105,7 @@ html, body {
   width: 100%;
   font-size: 0;
   letter-spacing: 0;
-  background: white;
+  background: @paper-color;
 //  position: absolute;
 //  top: 0;
 //  bottom: 0;
@@ -106,8 +118,8 @@ html, body {
     margin: 1% 1% 0 5%;
   }
   @media print {
-    width: 100% !important;
-    height: 100% !important;
+//    width: 100% !important;
+//    height: 100% !important;
     page-break-after: always;
   }
 }
@@ -141,7 +153,7 @@ footer {
 @radius: 10rem;
 
 .stroke {
-  background: black;
+  background: black !important;
 }
 
 //CHARACTER COMPONENTS
@@ -154,7 +166,8 @@ footer {
 }
 
 .horizontal {
-  height: @stroke-width;
+  height: @stroke-width !important;
+  min-height: @stroke-width !important;
 //  background: #ffb;
 }
 
@@ -207,10 +220,13 @@ table, tr, td {
 
 .character {
   .character-universals;
-  .aa, .ac, .ca, .cc, .ea, .ec, .fa, .fc {.square}
-  .ab, .cb, .eb, .fb {.horizontal}
-  .ba, .bc, .da, .dc, {.vertical}
-  .bb, .db {.both}
+  .aa, .ac, .ae, 
+  .ca, .cc, .ce,
+  .ea, .ec, .ee,
+  .fa, .fc, .fe {.square}
+  .ab, .ad, .cb, .cd, .eb, .ed, .fb, .fd {.horizontal}
+  .ba, .bc, .be, .da, .dc, .de {.vertical}
+  .bb, .bd, .db, .dd {.both}
   
 }
 
@@ -647,16 +663,21 @@ table, tr, td {
   .character;
   .aa { .tl; };
   .ab { .stroke; }; 
-  .ac { .tr; };
+  .ac { .stroke; }; 
+  .ad { .stroke; }; 
+  .ae { .tr; };
   .ba { .stroke; };
   .ca { .stroke; };
-  .cb { .bl; };
-  .cc { .stroke; };
+  .cc { .bl; };
+  .cd { .stroke; };
+  .ce { .stroke; };
   .da { .stroke; };
-  .dc { .stroke; };
+  .de { .stroke; };
   .ea { .bl; };
-  .eb { .br; };
+  .eb { .stroke; };
   .ec { .stroke; };
+  .ed { .br; };
+  .ee { .stroke; };
 }
 
 .H {
@@ -828,7 +849,7 @@ table, tr, td {
   .ca { .bl; };
   .cb { .stroke; };
   .cc { .tr; };
-  .da { .stroke; };
+//  .da { .stroke; };
   .dc { .stroke; };
   .ea { .bl; };
   .eb { .stroke; };
@@ -1118,6 +1139,41 @@ table, tr, td {
   .character-punctuation;
   .aa { .stroke; };
   .ba { .br };
+}
+
+.l-paren {
+  .character-narrow;
+  .ac { .tl; };
+  .bb { .tl; };
+  .cb { .stroke; };
+  .db { .stroke; };
+  .eb { .bl; };
+  .fc { .bl; };
+}
+.r-paren {
+  .character-narrow;
+  .aa { .tr; };
+  .bb { .tr; };
+  .cb { .stroke; };
+  .db { .stroke; };
+  .eb { .br; };
+  .fa { .stroke; };
+}
+
+.question {
+  .character;
+  .aa { .tl; };
+  .ab { .stroke; };
+  .ac { .stroke; };
+  .ad { .stroke; };
+  .ae { .tr; };
+  .ba { .bl; };
+  .be { .stroke; };
+  .cc { .tl; };
+  .cd { .stroke; };
+  .ce { .br; };
+  .dc { .br; };
+  .ec { .stroke; };
 }
 
 .space {
