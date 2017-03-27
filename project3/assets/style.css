@@ -39,7 +39,7 @@ body {
   background: white;
   height: auto;
   z-index: 9999;
-  border: 0.4rem solid black;
+  border: 0.25rem solid black;
 }
 #input-window form {
   margin-bottom: -2px;
@@ -59,7 +59,7 @@ body {
   width: 100%;
   height: 1.5em;
   text-align: right;
-  border-bottom: 0.4rem solid black;
+  border-bottom: 0.25rem solid black;
 }
 .window-bar i {
   margin: .25em;
@@ -77,7 +77,7 @@ body {
   position: absolute;
   bottom: .25em;
   left: .25em;
-  border: 0.4rem solid black;
+  border: 0.25rem solid black;
 }
 .print-button:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
@@ -136,16 +136,16 @@ footer {
   background: black;
 }
 .square {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .horizontal {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .vertical {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 table,
 tr,
@@ -204,22 +204,22 @@ td {
 .character .ec,
 .character .fa,
 .character .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character .ab,
 .character .cb,
 .character .eb,
 .character .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .character .ba,
 .character .bc,
 .character .da,
 .character .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character-narrow {
   display: inline-block;
@@ -246,20 +246,20 @@ td {
 .character-narrow .ec,
 .character-narrow .fa,
 .character-narrow .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .character-narrow .ab,
 .character-narrow .cb,
 .character-narrow .eb,
 .character-narrow .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character-narrow .bb,
 .character-narrow .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character-wide {
   display: inline-block;
@@ -286,22 +286,22 @@ td {
 .character-wide .ec,
 .character-wide .fa,
 .character-wide .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character-wide .ab,
 .character-wide .cb,
 .character-wide .eb,
 .character-wide .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .character-wide .ba,
 .character-wide .bc,
 .character-wide .da,
 .character-wide .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character-punctuation {
   display: inline-block;
@@ -312,7 +312,7 @@ td {
   margin-left: 0;
   margin-right: 1%;
   padding: 0;
-  width: 0.4rem;
+  width: 0.25rem;
 }
 .character-punctuation:last-child {
   margin-right: 0 !important;
@@ -325,14 +325,14 @@ td {
 .character-punctuation .ca,
 .character-punctuation .ea,
 .character-punctuation .fa {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .character-punctuation .ba,
 .character-punctuation .da {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .tl {
   background: black;
@@ -375,22 +375,22 @@ td {
 .a-l .ec,
 .a-l .fa,
 .a-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .a-l .ab,
 .a-l .cb,
 .a-l .eb,
 .a-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .a-l .ba,
 .a-l .bc,
 .a-l .da,
 .a-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .a-l .ca {
   background: black;
@@ -445,22 +445,22 @@ td {
 .b-l .ec,
 .b-l .fa,
 .b-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .b-l .ab,
 .b-l .cb,
 .b-l .eb,
 .b-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .b-l .ba,
 .b-l .bc,
 .b-l .da,
 .b-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .b-l .aa {
   background: black;
@@ -519,22 +519,22 @@ td {
 .c-l .ec,
 .c-l .fa,
 .c-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .c-l .ab,
 .c-l .cb,
 .c-l .eb,
 .c-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .c-l .ba,
 .c-l .bc,
 .c-l .da,
 .c-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .c-l .ca {
   background: black;
@@ -585,22 +585,22 @@ td {
 .d-l .ec,
 .d-l .fa,
 .d-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .d-l .ab,
 .d-l .cb,
 .d-l .eb,
 .d-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .d-l .ba,
 .d-l .bc,
 .d-l .da,
 .d-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .d-l .ac {
   background: black;
@@ -659,22 +659,22 @@ td {
 .e-l .ec,
 .e-l .fa,
 .e-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .e-l .ab,
 .e-l .cb,
 .e-l .eb,
 .e-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .e-l .ba,
 .e-l .bc,
 .e-l .da,
 .e-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .e-l .ca {
   background: black;
@@ -730,20 +730,20 @@ td {
 .f-l .ec,
 .f-l .fa,
 .f-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .f-l .ab,
 .f-l .cb,
 .f-l .eb,
 .f-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .f-l .bb,
 .f-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .f-l .ab {
   background: black;
@@ -800,22 +800,22 @@ td {
 .g-l .ec,
 .g-l .fa,
 .g-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .g-l .ab,
 .g-l .cb,
 .g-l .eb,
 .g-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .g-l .ba,
 .g-l .bc,
 .g-l .da,
 .g-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .g-l .ca {
   background: black;
@@ -870,22 +870,22 @@ td {
 .h-l .ec,
 .h-l .fa,
 .h-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .h-l .ab,
 .h-l .cb,
 .h-l .eb,
 .h-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .h-l .ba,
 .h-l .bc,
 .h-l .da,
 .h-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .h-l .aa {
   background: black;
@@ -940,20 +940,20 @@ td {
 .i-l .ec,
 .i-l .fa,
 .i-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .i-l .ab,
 .i-l .cb,
 .i-l .eb,
 .i-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .i-l .bb,
 .i-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .i-l .ab {
   background: black;
@@ -999,20 +999,20 @@ td {
 .j-l .ec,
 .j-l .fa,
 .j-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .j-l .ab,
 .j-l .cb,
 .j-l .eb,
 .j-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .j-l .bb,
 .j-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .j-l .ab {
   background: black;
@@ -1061,22 +1061,22 @@ td {
 .k-l .ec,
 .k-l .fa,
 .k-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .k-l .ab,
 .k-l .cb,
 .k-l .eb,
 .k-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .k-l .ba,
 .k-l .bc,
 .k-l .da,
 .k-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .k-l .aa {
   background: black;
@@ -1132,20 +1132,20 @@ td {
 .l-l .ec,
 .l-l .fa,
 .l-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .l-l .ab,
 .l-l .cb,
 .l-l .eb,
 .l-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .l-l .bb,
 .l-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .l-l .aa {
   background: black;
@@ -1194,22 +1194,22 @@ td {
 .m-l .ec,
 .m-l .fa,
 .m-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .m-l .ab,
 .m-l .cb,
 .m-l .eb,
 .m-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .m-l .ba,
 .m-l .bc,
 .m-l .da,
 .m-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .m-l .ca {
   background: black;
@@ -1259,22 +1259,22 @@ td {
 .n-l .ec,
 .n-l .fa,
 .n-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .n-l .ab,
 .n-l .cb,
 .n-l .eb,
 .n-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .n-l .ba,
 .n-l .bc,
 .n-l .da,
 .n-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .n-l .ca {
   background: black;
@@ -1324,22 +1324,22 @@ td {
 .o-l .ec,
 .o-l .fa,
 .o-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .o-l .ab,
 .o-l .cb,
 .o-l .eb,
 .o-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .o-l .ba,
 .o-l .bc,
 .o-l .da,
 .o-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .o-l .ca {
   background: black;
@@ -1394,22 +1394,22 @@ td {
 .p-l .ec,
 .p-l .fa,
 .p-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .p-l .ab,
 .p-l .cb,
 .p-l .eb,
 .p-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .p-l .ba,
 .p-l .bc,
 .p-l .da,
 .p-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .p-l .ca {
   background: black;
@@ -1465,22 +1465,22 @@ td {
 .q-l .ec,
 .q-l .fa,
 .q-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .q-l .ab,
 .q-l .cb,
 .q-l .eb,
 .q-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .q-l .ba,
 .q-l .bc,
 .q-l .da,
 .q-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .q-l .ca {
   background: black;
@@ -1538,22 +1538,22 @@ td {
 .r-l .ec,
 .r-l .fa,
 .r-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .r-l .ab,
 .r-l .cb,
 .r-l .eb,
 .r-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .r-l .ba,
 .r-l .bc,
 .r-l .da,
 .r-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .r-l .ca {
   background: black;
@@ -1596,20 +1596,20 @@ td {
 .s-l .ec,
 .s-l .fa,
 .s-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .s-l .ab,
 .s-l .cb,
 .s-l .eb,
 .s-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .s-l .bb,
 .s-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .s-l .cb {
   background: black;
@@ -1653,20 +1653,20 @@ td {
 .t-l .ec,
 .t-l .fa,
 .t-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .t-l .ab,
 .t-l .cb,
 .t-l .eb,
 .t-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .t-l .bb,
 .t-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .t-l .bb {
   background: black;
@@ -1712,22 +1712,22 @@ td {
 .u-l .ec,
 .u-l .fa,
 .u-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .u-l .ab,
 .u-l .cb,
 .u-l .eb,
 .u-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .u-l .ba,
 .u-l .bc,
 .u-l .da,
 .u-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .u-l .ca {
   background: black;
@@ -1777,22 +1777,22 @@ td {
 .v-l .ec,
 .v-l .fa,
 .v-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .v-l .ab,
 .v-l .cb,
 .v-l .eb,
 .v-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .v-l .ba,
 .v-l .bc,
 .v-l .da,
 .v-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .v-l .ca {
   background: black;
@@ -1836,22 +1836,22 @@ td {
 .w-l .ec,
 .w-l .fa,
 .w-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .w-l .ab,
 .w-l .cb,
 .w-l .eb,
 .w-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .w-l .ba,
 .w-l .bc,
 .w-l .da,
 .w-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .w-l .ca {
   background: black;
@@ -1901,20 +1901,20 @@ td {
 .x-l .ec,
 .x-l .fa,
 .x-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .x-l .ab,
 .x-l .cb,
 .x-l .eb,
 .x-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .x-l .bb,
 .x-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .x-l .ca {
   background: black;
@@ -1960,22 +1960,22 @@ td {
 .y-l .ec,
 .y-l .fa,
 .y-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .y-l .ab,
 .y-l .cb,
 .y-l .eb,
 .y-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .y-l .ba,
 .y-l .bc,
 .y-l .da,
 .y-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .y-l:last-child {
   margin-right: 0 !important;
@@ -1992,22 +1992,22 @@ td {
 .y-l .ec,
 .y-l .fa,
 .y-l .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .y-l .ab,
 .y-l .cb,
 .y-l .eb,
 .y-l .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .y-l .ba,
 .y-l .bc,
 .y-l .da,
 .y-l .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .y-l .ca {
   background: black;
@@ -2059,20 +2059,20 @@ td {
 .z-l .ec,
 .z-l .fa,
 .z-l .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .z-l .ab,
 .z-l .cb,
 .z-l .eb,
 .z-l .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .z-l .bb,
 .z-l .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .z-l .ca {
   background: black;
@@ -2114,22 +2114,22 @@ td {
 .A .ec,
 .A .fa,
 .A .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .A .ab,
 .A .cb,
 .A .eb,
 .A .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .A .ba,
 .A .bc,
 .A .da,
 .A .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .A .aa {
   background: black;
@@ -2194,22 +2194,22 @@ td {
 .B .ec,
 .B .fa,
 .B .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .B .ab,
 .B .cb,
 .B .eb,
 .B .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .B .ba,
 .B .bc,
 .B .da,
 .B .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .B .aa {
   background: black;
@@ -2278,22 +2278,22 @@ td {
 .C .ec,
 .C .fa,
 .C .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .C .ab,
 .C .cb,
 .C .eb,
 .C .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .C .ba,
 .C .bc,
 .C .da,
 .C .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .C .aa {
   background: black;
@@ -2354,22 +2354,22 @@ td {
 .D .ec,
 .D .fa,
 .D .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .D .ab,
 .D .cb,
 .D .eb,
 .D .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .D .ba,
 .D .bc,
 .D .da,
 .D .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .D .aa {
   background: black;
@@ -2434,22 +2434,22 @@ td {
 .E .ec,
 .E .fa,
 .E .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .E .ab,
 .E .cb,
 .E .eb,
 .E .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .E .ba,
 .E .bc,
 .E .da,
 .E .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .E .aa {
   background: black;
@@ -2506,22 +2506,22 @@ td {
 .F .ec,
 .F .fa,
 .F .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .F .ab,
 .F .cb,
 .F .eb,
 .F .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .F .ba,
 .F .bc,
 .F .da,
 .F .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .F .aa {
   background: black;
@@ -2572,22 +2572,22 @@ td {
 .G .ec,
 .G .fa,
 .G .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .G .ab,
 .G .cb,
 .G .eb,
 .G .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .G .ba,
 .G .bc,
 .G .da,
 .G .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .G .aa {
   background: black;
@@ -2655,22 +2655,22 @@ td {
 .H .ec,
 .H .fa,
 .H .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .H .ab,
 .H .cb,
 .H .eb,
 .H .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .H .ba,
 .H .bc,
 .H .da,
 .H .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .H .aa {
   background: black;
@@ -2730,20 +2730,20 @@ td {
 .I .ec,
 .I .fa,
 .I .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .I .ab,
 .I .cb,
 .I .eb,
 .I .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .I .bb,
 .I .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .I .aa {
   background: black;
@@ -2797,22 +2797,22 @@ td {
 .J .ec,
 .J .fa,
 .J .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .J .ab,
 .J .cb,
 .J .eb,
 .J .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .J .ba,
 .J .bc,
 .J .da,
 .J .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .J .ac {
   background: black;
@@ -2865,22 +2865,22 @@ td {
 .K .ec,
 .K .fa,
 .K .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .K .ab,
 .K .cb,
 .K .eb,
 .K .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .K .ba,
 .K .bc,
 .K .da,
 .K .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .K .aa {
   background: black;
@@ -2942,22 +2942,22 @@ td {
 .L .ec,
 .L .fa,
 .L .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .L .ab,
 .L .cb,
 .L .eb,
 .L .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .L .ba,
 .L .bc,
 .L .da,
 .L .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .L .aa {
   background: black;
@@ -3005,22 +3005,22 @@ td {
 .M .ec,
 .M .fa,
 .M .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .M .ab,
 .M .cb,
 .M .eb,
 .M .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .M .ba,
 .M .bc,
 .M .da,
 .M .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .M .aa {
   background: black;
@@ -3081,22 +3081,22 @@ td {
 .N .ec,
 .N .fa,
 .N .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .N .ab,
 .N .cb,
 .N .eb,
 .N .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .N .ba,
 .N .bc,
 .N .da,
 .N .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .N .aa {
   background: black;
@@ -3157,22 +3157,22 @@ td {
 .O .ec,
 .O .fa,
 .O .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .O .ab,
 .O .cb,
 .O .eb,
 .O .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .O .ba,
 .O .bc,
 .O .da,
 .O .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .O .aa {
   background: black;
@@ -3239,22 +3239,22 @@ td {
 .P .ec,
 .P .fa,
 .P .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .P .ab,
 .P .cb,
 .P .eb,
 .P .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .P .ba,
 .P .bc,
 .P .da,
 .P .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .P .aa {
   background: black;
@@ -3313,22 +3313,22 @@ td {
 .Q .ec,
 .Q .fa,
 .Q .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .Q .ab,
 .Q .cb,
 .Q .eb,
 .Q .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .Q .ba,
 .Q .bc,
 .Q .da,
 .Q .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .Q .aa {
   background: black;
@@ -3400,22 +3400,22 @@ td {
 .R .ec,
 .R .fa,
 .R .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .R .ab,
 .R .cb,
 .R .eb,
 .R .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .R .ba,
 .R .bc,
 .R .da,
 .R .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .R .aa {
   background: black;
@@ -3481,22 +3481,22 @@ td {
 .S .ec,
 .S .fa,
 .S .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .S .ab,
 .S .cb,
 .S .eb,
 .S .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .S .ba,
 .S .bc,
 .S .da,
 .S .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .S .aa {
   background: black;
@@ -3565,20 +3565,20 @@ td {
 .T .ec,
 .T .fa,
 .T .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .T .ab,
 .T .cb,
 .T .eb,
 .T .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .T .bb,
 .T .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .T .aa {
   background: black;
@@ -3626,22 +3626,22 @@ td {
 .U .ec,
 .U .fa,
 .U .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .U .ab,
 .U .cb,
 .U .eb,
 .U .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .U .ba,
 .U .bc,
 .U .da,
 .U .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .U .aa {
   background: black;
@@ -3703,22 +3703,22 @@ td {
 .V .ec,
 .V .fa,
 .V .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .V .ab,
 .V .cb,
 .V .eb,
 .V .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .V .ba,
 .V .bc,
 .V .da,
 .V .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .V .aa {
   background: black;
@@ -3774,22 +3774,22 @@ td {
 .W .ec,
 .W .fa,
 .W .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .W .ab,
 .W .cb,
 .W .eb,
 .W .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .W .ba,
 .W .bc,
 .W .da,
 .W .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .W .aa {
   background: black;
@@ -3851,22 +3851,22 @@ td {
 .X .ec,
 .X .fa,
 .X .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .X .ab,
 .X .cb,
 .X .eb,
 .X .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .X .ba,
 .X .bc,
 .X .da,
 .X .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .X .aa {
   background: black;
@@ -3930,22 +3930,22 @@ td {
 .Y .ec,
 .Y .fa,
 .Y .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .Y .ab,
 .Y .cb,
 .Y .eb,
 .Y .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .Y .ba,
 .Y .bc,
 .Y .da,
 .Y .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .Y .aa {
   background: black;
@@ -4004,22 +4004,22 @@ td {
 .Z .ec,
 .Z .fa,
 .Z .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .Z .ab,
 .Z .cb,
 .Z .eb,
 .Z .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .Z .ba,
 .Z .bc,
 .Z .da,
 .Z .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .Z .aa {
   background: black;
@@ -4075,20 +4075,20 @@ td {
 .one .ec,
 .one .fa,
 .one .fc {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .one .ab,
 .one .cb,
 .one .eb,
 .one .fb {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .one .bb,
 .one .db {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .one .aa {
   background: black;
@@ -4139,22 +4139,22 @@ td {
 .two .ec,
 .two .fa,
 .two .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .two .ab,
 .two .cb,
 .two .eb,
 .two .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .two .ba,
 .two .bc,
 .two .da,
 .two .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .two .aa {
   background: black;
@@ -4218,22 +4218,22 @@ td {
 .three .ec,
 .three .fa,
 .three .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .three .ab,
 .three .cb,
 .three .eb,
 .three .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .three .ba,
 .three .bc,
 .three .da,
 .three .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .three .aa {
   background: black;
@@ -4296,22 +4296,22 @@ td {
 .four .ec,
 .four .fa,
 .four .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .four .ab,
 .four .cb,
 .four .eb,
 .four .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .four .ba,
 .four .bc,
 .four .da,
 .four .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .four .aa {
   background: black;
@@ -4366,22 +4366,22 @@ td {
 .five .ec,
 .five .fa,
 .five .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .five .ab,
 .five .cb,
 .five .eb,
 .five .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .five .ba,
 .five .bc,
 .five .da,
 .five .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .five .aa {
   background: black;
@@ -4444,22 +4444,22 @@ td {
 .six .ec,
 .six .fa,
 .six .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .six .ab,
 .six .cb,
 .six .eb,
 .six .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .six .ba,
 .six .bc,
 .six .da,
 .six .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .six .aa {
   background: black;
@@ -4527,22 +4527,22 @@ td {
 .seven .ec,
 .seven .fa,
 .seven .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .seven .ab,
 .seven .cb,
 .seven .eb,
 .seven .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .seven .ba,
 .seven .bc,
 .seven .da,
 .seven .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .seven .aa {
   background: black;
@@ -4598,22 +4598,22 @@ td {
 .eight .ec,
 .eight .fa,
 .eight .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .eight .ab,
 .eight .cb,
 .eight .eb,
 .eight .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .eight .ba,
 .eight .bc,
 .eight .da,
 .eight .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .eight .aa {
   background: black;
@@ -4687,22 +4687,22 @@ td {
 .nine .ec,
 .nine .fa,
 .nine .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .nine .ab,
 .nine .cb,
 .nine .eb,
 .nine .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .nine .ba,
 .nine .bc,
 .nine .da,
 .nine .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .nine .aa {
   background: black;
@@ -4762,22 +4762,22 @@ td {
 .zero .ec,
 .zero .fa,
 .zero .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .zero .ab,
 .zero .cb,
 .zero .eb,
 .zero .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .zero .ba,
 .zero .bc,
 .zero .da,
 .zero .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .zero .aa {
   background: black;
@@ -4838,22 +4838,22 @@ td {
 .period .ec,
 .period .fa,
 .period .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .period .ab,
 .period .cb,
 .period .eb,
 .period .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .period .ba,
 .period .bc,
 .period .da,
 .period .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .period .ea {
   background: black;
@@ -4883,22 +4883,22 @@ td {
 .exclamation-point .ec,
 .exclamation-point .fa,
 .exclamation-point .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .exclamation-point .ab,
 .exclamation-point .cb,
 .exclamation-point .eb,
 .exclamation-point .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .exclamation-point .ba,
 .exclamation-point .bc,
 .exclamation-point .da,
 .exclamation-point .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .exclamation-point .aa {
   background: black;
@@ -4937,22 +4937,22 @@ td {
 .comma .ec,
 .comma .fa,
 .comma .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .comma .ab,
 .comma .cb,
 .comma .eb,
 .comma .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .comma .ba,
 .comma .bc,
 .comma .da,
 .comma .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .comma .da {
   background: black;
@@ -4986,22 +4986,22 @@ td {
 .colon .ec,
 .colon .fa,
 .colon .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .colon .ab,
 .colon .cb,
 .colon .eb,
 .colon .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .colon .ba,
 .colon .bc,
 .colon .da,
 .colon .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .colon .ca {
   background: black;
@@ -5034,22 +5034,22 @@ td {
 .semi-colon .ec,
 .semi-colon .fa,
 .semi-colon .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .semi-colon .ab,
 .semi-colon .cb,
 .semi-colon .eb,
 .semi-colon .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .semi-colon .ba,
 .semi-colon .bc,
 .semi-colon .da,
 .semi-colon .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .semi-colon .ca {
   background: black;
@@ -5067,7 +5067,7 @@ td {
   margin-left: 0;
   margin-right: 1%;
   padding: 0;
-  width: 0.4rem;
+  width: 0.25rem;
 }
 .l-quote:last-child {
   margin-right: 0 !important;
@@ -5080,14 +5080,14 @@ td {
 .l-quote .ca,
 .l-quote .ea,
 .l-quote .fa {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .l-quote .ba,
 .l-quote .da {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .l-quote .aa {
   background: black;
@@ -5106,7 +5106,7 @@ td {
   margin-left: 0;
   margin-right: 1%;
   padding: 0;
-  width: 0.4rem;
+  width: 0.25rem;
 }
 .r-quote:last-child,
 .apostraphe:last-child {
@@ -5125,16 +5125,16 @@ td {
 .apostraphe .ea,
 .r-quote .fa,
 .apostraphe .fa {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .r-quote .ba,
 .apostraphe .ba,
 .r-quote .da,
 .apostraphe .da {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .r-quote .aa,
 .apostraphe .aa {
@@ -5170,20 +5170,20 @@ td {
 .space .ec,
 .space .fa,
 .space .fc {
-  width: 0.4rem;
-  height: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  height: 0.25rem;
+  max-width: 0.25rem !important;
 }
 .space .ab,
 .space .cb,
 .space .eb,
 .space .fb {
-  height: 0.4rem;
+  height: 0.25rem;
 }
 .space .ba,
 .space .bc,
 .space .da,
 .space .dc {
-  width: 0.4rem;
-  max-width: 0.4rem !important;
+  width: 0.25rem;
+  max-width: 0.25rem !important;
 }
