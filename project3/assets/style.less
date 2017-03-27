@@ -2,10 +2,17 @@
 
 html, body {
   background: gold;
-  height: 100%;
-  width: 100%;
+  overflow: hidden;
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+
+  @media print {
+    background: white;
+    height: 100% !imporant;
+    width: 100% !important;
+  }
 }
 
 .character-definition {
@@ -15,18 +22,48 @@ html, body {
 #input-anchor {
   height: 0;
   width: 0;
+  @media print {
+    display: none;
+  }
+}
+
+.box-shadow {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .6);
 }
 
 #input-window {
+  .box-shadow;
   position: fixed;
-  top: 4em;
-  left: 4em;
-  background: #ccc;
-  box-shadow: 5px 5px 5px black;
-  padding: 1em;
+  top: 2em;
+  left: 2em;
+  background: white;
   height: auto;
-  width: 16em;
-  z-index: 10000;
+  z-index: 9999;
+  border: @stroke-width solid black;
+  form {
+    margin-bottom: -2px;
+  }
+  textarea {
+    background: white;
+    border: 0;
+    margin: 0;
+    padding: .5em;
+  }
+  
+  @media (min-width: 35.5em) { //FOR DESKTOP
+  left: 50%;
+  }
+  
+}
+
+.window-bar {
+  width: 100%;
+  height: 1.5em;
+  text-align: right;
+  border-bottom: @stroke-width solid black;
+  i {
+    margin: .25em;
+  }
 }
 
 .input-line {
@@ -35,9 +72,25 @@ html, body {
   width: 100%;
 }
 
+.print-button {
+  .box-shadow;
+  background: white;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: .25em;
+  left: .25em;
+  border: @stroke-width solid black;
+  &:hover {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+    bottom: .2em;
+    left: .3em;
+  }
+}
+
 #page {
-  height: 90%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   font-size: 0;
   letter-spacing: 0;
   background: white;
@@ -46,13 +99,40 @@ html, body {
 //  bottom: 0;
 //  left: 0;
 //  right: 0;
+  @media (min-width: 35.5em) { //FOR DESKTOP
+    border: 2rem solid white;
+    height: 85%;
+    width: 30%;
+    margin: 1% 1% 0 5%;
+  }
+  @media print {
+    width: 100% !important;
+    height: 100% !important;
+    page-break-after: always;
+  }
+}
+
+p, h1, h2, h3, h4, h5, h6, input, textarea, button, footer {
+  font-family: 'Space Mono', monospace;
+}
+
+footer {
+  text-align: center;
+  font-size: .8em;
+  opacity: .6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @media print {
+    display: none;
+  }
 }
 
 //**********************************************************
 
 //VARIABLES AND MIXINS
 
-@stroke-width: .5rem;
+@stroke-width: .4rem;
 //@min-height: 2.5em;
 //@min-width: 1em;
 
@@ -998,13 +1078,13 @@ table, tr, td {
 }
 
 .period {
-  .character-punctuation;
+  .character;
   .ea { .stroke; };
 
 }
 
 .exclamation-point {
-  .character-punctuation;
+  .character;
   .aa { .stroke; };
   .ba { .stroke; };
   .ca { .stroke; };
@@ -1012,19 +1092,19 @@ table, tr, td {
 }
 
 .comma {
-  .character-punctuation;
+  .character;
   .da { .stroke; };
   .ea { .br; };
 }
 
 .colon {
-  .character-punctuation;
+  .character;
   .ca { .stroke; }
   .ea { .stroke; };
 }
 
 .semi-colon {
-  .character-punctuation;
+  .character;
   .ca { .stroke; };
   .ea { .br; };
 }

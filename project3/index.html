@@ -6,19 +6,34 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Responsive Typeface Table</title>
   
-  <link rel="stylesheet" type="text/css" href="assets/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/normalize.css">
+  <link rel="stylesheet" href="assets/style.css" />
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-  
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <script src="https://use.fontawesome.com/5ab40a9f63.js"></script>
+<!-- To Do
+  character escaping
+  add apostraphes and quotes
+  paper sizes
+  colors
+  font options
+-->
 </head>
   
 <body>
   
   <div id="input-anchor">
     <div id="input-window">
+      <div class="window-bar"><i class="fa fa-arrows" aria-hidden="true"></i></div>
       <form id="input-form">
-        <input type="text" class="input-line" id="input-line1" value="TYPE HERE">
+        <textarea id="input" rows="10" cols="20">DMCA
+VISITING
+ARTIST
+WORKSHOP
+9pm Wed.March 29
+149 York St</textarea>
       </form>
+        <button class="print-button">PRINT</button>
     </div>
   </div>
   
@@ -2534,6 +2549,9 @@
       </div>
     </div>
   </div>
+  
+  <footer>isaac morrier</footer>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="assets/main.js" ></script>

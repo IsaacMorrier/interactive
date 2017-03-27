@@ -1,15 +1,53 @@
 $(document).ready(function () {
   
+  var $inputWindow = $('#input-window');
+  var $input = $('#input');
+  var $page = $('#page');
+  
+  var printHeight = 11;
+  var printWidth = 8.5;
+  
+/*  ESCAPING
+function htmlEncode(value){
+  if (value) {
+    return jQuery('<div />').text(value).html();
+  } else {
+    return '';
+  }
+}
+
+function htmlDecode(value) {
+  if (value) {
+    return $('<div />').html(value).text();
+  } else {
+    return '';
+  }
+}
+
+$("#btn").click ( function () {
+  alert( htmlEncode ( $('#sourceText').text()) );
+} );
+*/
+  
 //MAKE INPUT WINDOW DRAGGABLE
   $(function () {
-    $('#input-window').draggable();
+    $inputWindow.draggable();
   });
-
+  
 //READ INPUTS, PIPE LETTERS TO DESTINATION DIVS, SWAP FOR TABLES
-  function renderLetters() {
-    for (i = 1; i < (1 + $('.input-line').length); i++) {
-      $('#line' + i).text($('#input-line' + i).val());
+  function renderLetters(pageHeight, pageWidth) {
+    
+    $page.width( printWidth * ( $page.height() / printHeight ) );
+    
+    var inputLines = ($input.val() + '\n').split('\n');
+    
+    $page.empty();
+    
+    for (i = 1; i < (1 + inputLines.length); i++) {
+      $page.append( '<div id="line' + i + '" class="letters"></div>' );
+      $('#line' + i).text(inputLines[i - 1]);
     }
+    
     $('.letters').each(function () {
       var $letterWrapper = $(this);
       var letters = $letterWrapper.html().split('');
@@ -38,6 +76,7 @@ $(document).ready(function () {
     $('.letters > div').css('height', lineHeight);
   }
   
+/* 
 // SEE IF THERE ARE CHARACTERS IN THE LAST LINE
   function assessInputs() {
     l = 1 + $('.input-line').length;
@@ -48,15 +87,22 @@ $(document).ready(function () {
 //IF NO, REMOVE THE LAST LINE
     }
   }
-
+*/
+  
 // ON KEYUP IN INPUTS, ITERATE THROUGH LINES
-  $('#input-form').on('keyup', '.input-line', function(e) {
+  $('#input-form').on('keyup', $input, function(e) {
     renderLetters();
-    assessInputs();
+//    assessInputs();
   });
   
 // AT START, ASSESS INPUTS AND RENDER
-  assessInputs();
+//  assessInputs();
   renderLetters();
+  window.onresize = renderLetters;
+  
+// PRINT BUTTON
+  $('.print-button').click(function(){
+     window.print();
+  });
   
 });
