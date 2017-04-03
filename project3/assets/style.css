@@ -37,7 +37,7 @@ body {
   background: white;
   height: auto;
   z-index: 9999;
-  border: 0.25rem solid black;
+  border: 0.18rem solid black;
 }
 #input-window form {
   margin-bottom: -2px;
@@ -57,7 +57,7 @@ body {
   width: 100%;
   height: 1.5em;
   text-align: right;
-  border-bottom: 0.25rem solid black;
+  border-bottom: 0.18rem solid black;
 }
 .window-bar i {
   margin: .25em;
@@ -75,7 +75,7 @@ body {
   position: absolute;
   bottom: .25em;
   left: .25em;
-  border: 0.25rem solid black;
+  border: 0.18rem solid black;
 }
 .print-button:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
@@ -145,17 +145,17 @@ footer {
   background: black !important;
 }
 .square {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .horizontal {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .vertical {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 table,
 tr,
@@ -230,9 +230,9 @@ td {
 .character .jc,
 .character .je,
 .character .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character .ab,
 .character .ad,
@@ -246,8 +246,8 @@ td {
 .character .jd,
 .character .kb,
 .character .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .character .ba,
 .character .bc,
@@ -265,8 +265,8 @@ td {
 .character .ic,
 .character .ie,
 .character .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character-narrow {
   display: inline-block;
@@ -293,21 +293,21 @@ td {
 .character-narrow .ec,
 .character-narrow .ka,
 .character-narrow .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .character-narrow .ab,
 .character-narrow .cb,
 .character-narrow .eb,
 .character-narrow .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character-narrow .bb,
 .character-narrow .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character-wide {
   display: inline-block;
@@ -350,9 +350,9 @@ td {
 .character-wide .jc,
 .character-wide .je,
 .character-wide .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character-wide .ab,
 .character-wide .ad,
@@ -366,8 +366,8 @@ td {
 .character-wide .jd,
 .character-wide .kb,
 .character-wide .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .character-wide .ba,
 .character-wide .bc,
@@ -385,8 +385,8 @@ td {
 .character-wide .ic,
 .character-wide .ie,
 .character-wide .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character-punctuation {
   display: inline-block;
@@ -397,7 +397,7 @@ td {
   margin-left: 0;
   margin-right: 1%;
   padding: 0;
-  width: 0.25rem;
+  width: 0.18rem;
 }
 .character-punctuation:last-child {
   margin-right: 0 !important;
@@ -410,14 +410,14 @@ td {
 .character-punctuation .ca,
 .character-punctuation .ea,
 .character-punctuation .ka {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .character-punctuation .ba,
 .character-punctuation .da {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .tl {
   background: black !important;
@@ -476,9 +476,9 @@ td {
 .a-l .jc,
 .a-l .je,
 .a-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .a-l .ab,
 .a-l .ad,
@@ -492,8 +492,8 @@ td {
 .a-l .jd,
 .a-l .kb,
 .a-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .a-l .ba,
 .a-l .bc,
@@ -511,8 +511,8 @@ td {
 .a-l .ic,
 .a-l .ie,
 .a-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .a-l .eb {
   background: black !important;
@@ -609,9 +609,9 @@ td {
 .b-l .jc,
 .b-l .je,
 .b-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .b-l .ab,
 .b-l .ad,
@@ -625,8 +625,8 @@ td {
 .b-l .jd,
 .b-l .kb,
 .b-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .b-l .ba,
 .b-l .bc,
@@ -644,8 +644,8 @@ td {
 .b-l .ic,
 .b-l .ie,
 .b-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .b-l .aa {
   background: black !important;
@@ -720,9 +720,9 @@ td {
 .c-l .jc,
 .c-l .je,
 .c-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .c-l .ab,
 .c-l .ad,
@@ -736,8 +736,8 @@ td {
 .c-l .jd,
 .c-l .kb,
 .c-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .c-l .ba,
 .c-l .bc,
@@ -755,8 +755,8 @@ td {
 .c-l .ic,
 .c-l .ie,
 .c-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .c-l .ca {
   background: black !important;
@@ -823,9 +823,9 @@ td {
 .d-l .jc,
 .d-l .je,
 .d-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .d-l .ab,
 .d-l .ad,
@@ -839,8 +839,8 @@ td {
 .d-l .jd,
 .d-l .kb,
 .d-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .d-l .ba,
 .d-l .bc,
@@ -858,8 +858,8 @@ td {
 .d-l .ic,
 .d-l .ie,
 .d-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .d-l .ac {
   background: black !important;
@@ -934,9 +934,9 @@ td {
 .e-l .jc,
 .e-l .je,
 .e-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .e-l .ab,
 .e-l .ad,
@@ -950,8 +950,8 @@ td {
 .e-l .jd,
 .e-l .kb,
 .e-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .e-l .ba,
 .e-l .bc,
@@ -969,8 +969,8 @@ td {
 .e-l .ic,
 .e-l .ie,
 .e-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .e-l .ea {
   background: black !important;
@@ -1056,21 +1056,21 @@ td {
 .f-l .ec,
 .f-l .ka,
 .f-l .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .f-l .ab,
 .f-l .cb,
 .f-l .eb,
 .f-l .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .f-l .bb,
 .f-l .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .f-l .ab {
   background: black !important;
@@ -1143,9 +1143,9 @@ td {
 .g-l .jc,
 .g-l .je,
 .g-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .g-l .ab,
 .g-l .ad,
@@ -1159,8 +1159,8 @@ td {
 .g-l .jd,
 .g-l .kb,
 .g-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .g-l .ba,
 .g-l .bc,
@@ -1178,8 +1178,8 @@ td {
 .g-l .ic,
 .g-l .ie,
 .g-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .g-l .ca {
   background: black !important;
@@ -1259,9 +1259,9 @@ td {
 .h-l .jc,
 .h-l .je,
 .h-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .h-l .ab,
 .h-l .ad,
@@ -1275,8 +1275,8 @@ td {
 .h-l .jd,
 .h-l .kb,
 .h-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .h-l .ba,
 .h-l .bc,
@@ -1294,8 +1294,8 @@ td {
 .h-l .ic,
 .h-l .ie,
 .h-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .h-l .aa {
   background: black !important;
@@ -1366,9 +1366,9 @@ td {
 .i-l .jc,
 .i-l .je,
 .i-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .i-l .ab,
 .i-l .ad,
@@ -1382,8 +1382,8 @@ td {
 .i-l .jd,
 .i-l .kb,
 .i-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .i-l .ba,
 .i-l .bc,
@@ -1401,8 +1401,8 @@ td {
 .i-l .ic,
 .i-l .ie,
 .i-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .i-l .cc {
   background: black !important;
@@ -1476,9 +1476,9 @@ td {
 .j-l .jc,
 .j-l .je,
 .j-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .j-l .ab,
 .j-l .ad,
@@ -1492,8 +1492,8 @@ td {
 .j-l .jd,
 .j-l .kb,
 .j-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .j-l .ba,
 .j-l .bc,
@@ -1511,8 +1511,8 @@ td {
 .j-l .ic,
 .j-l .ie,
 .j-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .j-l .ce {
   background: black !important;
@@ -1592,9 +1592,9 @@ td {
 .k-l .jc,
 .k-l .je,
 .k-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .k-l .ab,
 .k-l .ad,
@@ -1608,8 +1608,8 @@ td {
 .k-l .jd,
 .k-l .kb,
 .k-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .k-l .ba,
 .k-l .bc,
@@ -1627,8 +1627,8 @@ td {
 .k-l .ic,
 .k-l .ie,
 .k-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .k-l .aa {
   background: black !important;
@@ -1712,21 +1712,21 @@ td {
 .l-l .ec,
 .l-l .ka,
 .l-l .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .l-l .ab,
 .l-l .cb,
 .l-l .eb,
 .l-l .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .l-l .bb,
 .l-l .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .l-l .aa {
   background: black !important;
@@ -1791,9 +1791,9 @@ td {
 .m-l .jc,
 .m-l .je,
 .m-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .m-l .ab,
 .m-l .ad,
@@ -1807,8 +1807,8 @@ td {
 .m-l .jd,
 .m-l .kb,
 .m-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .m-l .ba,
 .m-l .bc,
@@ -1826,8 +1826,8 @@ td {
 .m-l .ic,
 .m-l .ie,
 .m-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .m-l .ca {
   background: black !important;
@@ -1893,9 +1893,9 @@ td {
 .n-l .jc,
 .n-l .je,
 .n-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .n-l .ab,
 .n-l .ad,
@@ -1909,8 +1909,8 @@ td {
 .n-l .jd,
 .n-l .kb,
 .n-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .n-l .ba,
 .n-l .bc,
@@ -1928,8 +1928,8 @@ td {
 .n-l .ic,
 .n-l .ie,
 .n-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .n-l .ca {
   background: black !important;
@@ -1995,9 +1995,9 @@ td {
 .o-l .jc,
 .o-l .je,
 .o-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .o-l .ab,
 .o-l .ad,
@@ -2011,8 +2011,8 @@ td {
 .o-l .jd,
 .o-l .kb,
 .o-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .o-l .ba,
 .o-l .bc,
@@ -2030,8 +2030,8 @@ td {
 .o-l .ic,
 .o-l .ie,
 .o-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .o-l .ca {
   background: black !important;
@@ -2102,9 +2102,9 @@ td {
 .p-l .jc,
 .p-l .je,
 .p-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .p-l .ab,
 .p-l .ad,
@@ -2118,8 +2118,8 @@ td {
 .p-l .jd,
 .p-l .kb,
 .p-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .p-l .ba,
 .p-l .bc,
@@ -2137,8 +2137,8 @@ td {
 .p-l .ic,
 .p-l .ie,
 .p-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .p-l .ca {
   background: black !important;
@@ -2210,9 +2210,9 @@ td {
 .q-l .jc,
 .q-l .je,
 .q-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .q-l .ab,
 .q-l .ad,
@@ -2226,8 +2226,8 @@ td {
 .q-l .jd,
 .q-l .kb,
 .q-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .q-l .ba,
 .q-l .bc,
@@ -2245,8 +2245,8 @@ td {
 .q-l .ic,
 .q-l .ie,
 .q-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .q-l .ca {
   background: black !important;
@@ -2320,9 +2320,9 @@ td {
 .r-l .jc,
 .r-l .je,
 .r-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .r-l .ab,
 .r-l .ad,
@@ -2336,8 +2336,8 @@ td {
 .r-l .jd,
 .r-l .kb,
 .r-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .r-l .ba,
 .r-l .bc,
@@ -2355,8 +2355,8 @@ td {
 .r-l .ic,
 .r-l .ie,
 .r-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .r-l .ca {
   background: black !important;
@@ -2415,9 +2415,9 @@ td {
 .s-l .jc,
 .s-l .je,
 .s-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .s-l .ab,
 .s-l .ad,
@@ -2431,8 +2431,8 @@ td {
 .s-l .jd,
 .s-l .kb,
 .s-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .s-l .ba,
 .s-l .bc,
@@ -2450,8 +2450,8 @@ td {
 .s-l .ic,
 .s-l .ie,
 .s-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .s-l .ea {
   background: black !important;
@@ -2551,9 +2551,9 @@ td {
 .t-l .jc,
 .t-l .je,
 .t-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .t-l .ab,
 .t-l .ad,
@@ -2567,8 +2567,8 @@ td {
 .t-l .jd,
 .t-l .kb,
 .t-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .t-l .ba,
 .t-l .bc,
@@ -2586,8 +2586,8 @@ td {
 .t-l .ic,
 .t-l .ie,
 .t-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .t-l .cc {
   background: black !important;
@@ -2664,9 +2664,9 @@ td {
 .u-l .jc,
 .u-l .je,
 .u-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .u-l .ab,
 .u-l .ad,
@@ -2680,8 +2680,8 @@ td {
 .u-l .jd,
 .u-l .kb,
 .u-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .u-l .ba,
 .u-l .bc,
@@ -2699,8 +2699,8 @@ td {
 .u-l .ic,
 .u-l .ie,
 .u-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .u-l .ca {
   background: black !important;
@@ -2766,9 +2766,9 @@ td {
 .v-l .jc,
 .v-l .je,
 .v-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .v-l .ab,
 .v-l .ad,
@@ -2782,8 +2782,8 @@ td {
 .v-l .jd,
 .v-l .kb,
 .v-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .v-l .ba,
 .v-l .bc,
@@ -2801,8 +2801,8 @@ td {
 .v-l .ic,
 .v-l .ie,
 .v-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .v-l .ea {
   background: black !important;
@@ -2884,9 +2884,9 @@ td {
 .w-l .jc,
 .w-l .je,
 .w-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .w-l .ab,
 .w-l .ad,
@@ -2900,8 +2900,8 @@ td {
 .w-l .jd,
 .w-l .kb,
 .w-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .w-l .ba,
 .w-l .bc,
@@ -2919,8 +2919,8 @@ td {
 .w-l .ic,
 .w-l .ie,
 .w-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .w-l .ca {
   background: black !important;
@@ -2986,9 +2986,9 @@ td {
 .x-l .jc,
 .x-l .je,
 .x-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .x-l .ab,
 .x-l .ad,
@@ -3002,8 +3002,8 @@ td {
 .x-l .jd,
 .x-l .kb,
 .x-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .x-l .ba,
 .x-l .bc,
@@ -3021,8 +3021,8 @@ td {
 .x-l .ic,
 .x-l .ie,
 .x-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .x-l .ea {
   background: black !important;
@@ -3108,9 +3108,9 @@ td {
 .y-l .jc,
 .y-l .je,
 .y-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .y-l .ab,
 .y-l .ad,
@@ -3124,8 +3124,8 @@ td {
 .y-l .jd,
 .y-l .kb,
 .y-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .y-l .ba,
 .y-l .bc,
@@ -3143,8 +3143,8 @@ td {
 .y-l .ic,
 .y-l .ie,
 .y-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .y-l .ca {
   background: black !important;
@@ -3219,9 +3219,9 @@ td {
 .z-l .jc,
 .z-l .je,
 .z-l .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .z-l .ab,
 .z-l .ad,
@@ -3235,8 +3235,8 @@ td {
 .z-l .jd,
 .z-l .kb,
 .z-l .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .z-l .ba,
 .z-l .bc,
@@ -3254,8 +3254,8 @@ td {
 .z-l .ic,
 .z-l .ie,
 .z-l .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .z-l .ea {
   background: black !important;
@@ -3344,9 +3344,9 @@ td {
 .A .jc,
 .A .je,
 .A .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .A .ab,
 .A .ad,
@@ -3360,8 +3360,8 @@ td {
 .A .jd,
 .A .kb,
 .A .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .A .ba,
 .A .bc,
@@ -3379,8 +3379,8 @@ td {
 .A .ic,
 .A .ie,
 .A .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .A .aa {
   background: black !important;
@@ -3461,9 +3461,9 @@ td {
 .B .jc,
 .B .je,
 .B .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .B .ab,
 .B .ad,
@@ -3477,8 +3477,8 @@ td {
 .B .jd,
 .B .kb,
 .B .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .B .ba,
 .B .bc,
@@ -3496,8 +3496,8 @@ td {
 .B .ic,
 .B .ie,
 .B .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .B .aa {
   background: black !important;
@@ -3583,9 +3583,9 @@ td {
 .C .jc,
 .C .je,
 .C .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .C .ab,
 .C .ad,
@@ -3599,8 +3599,8 @@ td {
 .C .jd,
 .C .kb,
 .C .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .C .ba,
 .C .bc,
@@ -3618,8 +3618,8 @@ td {
 .C .ic,
 .C .ie,
 .C .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .C .aa {
   background: black !important;
@@ -3720,9 +3720,9 @@ td {
 .D .jc,
 .D .je,
 .D .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .D .ab,
 .D .ad,
@@ -3736,8 +3736,8 @@ td {
 .D .jd,
 .D .kb,
 .D .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .D .ba,
 .D .bc,
@@ -3755,8 +3755,8 @@ td {
 .D .ic,
 .D .ie,
 .D .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .D .aa {
   background: black !important;
@@ -3879,9 +3879,9 @@ td {
 .E .jc,
 .E .je,
 .E .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .E .ab,
 .E .ad,
@@ -3895,8 +3895,8 @@ td {
 .E .jd,
 .E .kb,
 .E .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .E .ba,
 .E .bc,
@@ -3914,8 +3914,8 @@ td {
 .E .ic,
 .E .ie,
 .E .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .E .aa {
   background: black !important;
@@ -3988,9 +3988,9 @@ td {
 .F .jc,
 .F .je,
 .F .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .F .ab,
 .F .ad,
@@ -4004,8 +4004,8 @@ td {
 .F .jd,
 .F .kb,
 .F .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .F .ba,
 .F .bc,
@@ -4023,8 +4023,8 @@ td {
 .F .ic,
 .F .ie,
 .F .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .F .aa {
   background: black !important;
@@ -4091,9 +4091,9 @@ td {
 .G .jc,
 .G .je,
 .G .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .G .ab,
 .G .ad,
@@ -4107,8 +4107,8 @@ td {
 .G .jd,
 .G .kb,
 .G .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .G .ba,
 .G .bc,
@@ -4126,8 +4126,8 @@ td {
 .G .ic,
 .G .ie,
 .G .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .G .aa {
   background: black !important;
@@ -4247,9 +4247,9 @@ td {
 .H .jc,
 .H .je,
 .H .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .H .ab,
 .H .ad,
@@ -4263,8 +4263,8 @@ td {
 .H .jd,
 .H .kb,
 .H .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .H .ba,
 .H .bc,
@@ -4282,8 +4282,8 @@ td {
 .H .ic,
 .H .ie,
 .H .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .H .aa {
   background: black !important;
@@ -4343,21 +4343,21 @@ td {
 .I .ec,
 .I .ka,
 .I .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .I .ab,
 .I .cb,
 .I .eb,
 .I .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .I .bb,
 .I .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .I .aa {
   background: black !important;
@@ -4427,9 +4427,9 @@ td {
 .J .jc,
 .J .je,
 .J .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .J .ab,
 .J .ad,
@@ -4443,8 +4443,8 @@ td {
 .J .jd,
 .J .kb,
 .J .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .J .ba,
 .J .bc,
@@ -4462,8 +4462,8 @@ td {
 .J .ic,
 .J .ie,
 .J .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .J .ae {
   background: black !important;
@@ -4553,9 +4553,9 @@ td {
 .K .jc,
 .K .je,
 .K .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .K .ab,
 .K .ad,
@@ -4569,8 +4569,8 @@ td {
 .K .jd,
 .K .kb,
 .K .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .K .ba,
 .K .bc,
@@ -4588,8 +4588,8 @@ td {
 .K .ic,
 .K .ie,
 .K .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .K .aa {
   background: black !important;
@@ -4701,9 +4701,9 @@ td {
 .L .jc,
 .L .je,
 .L .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .L .ab,
 .L .ad,
@@ -4717,8 +4717,8 @@ td {
 .L .jd,
 .L .kb,
 .L .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .L .ba,
 .L .bc,
@@ -4736,8 +4736,8 @@ td {
 .L .ic,
 .L .ie,
 .L .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .L .aa {
   background: black !important;
@@ -4801,9 +4801,9 @@ td {
 .M .jc,
 .M .je,
 .M .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .M .ab,
 .M .ad,
@@ -4817,8 +4817,8 @@ td {
 .M .jd,
 .M .kb,
 .M .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .M .ba,
 .M .bc,
@@ -4836,8 +4836,8 @@ td {
 .M .ic,
 .M .ie,
 .M .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .M .aa {
   background: black !important;
@@ -4914,9 +4914,9 @@ td {
 .N .jc,
 .N .je,
 .N .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .N .ab,
 .N .ad,
@@ -4930,8 +4930,8 @@ td {
 .N .jd,
 .N .kb,
 .N .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .N .ba,
 .N .bc,
@@ -4949,8 +4949,8 @@ td {
 .N .ic,
 .N .ie,
 .N .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .N .aa {
   background: black !important;
@@ -5027,9 +5027,9 @@ td {
 .O .jc,
 .O .je,
 .O .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .O .ab,
 .O .ad,
@@ -5043,8 +5043,8 @@ td {
 .O .jd,
 .O .kb,
 .O .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .O .ba,
 .O .bc,
@@ -5062,8 +5062,8 @@ td {
 .O .ic,
 .O .ie,
 .O .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .O .aa {
   background: black !important;
@@ -5146,9 +5146,9 @@ td {
 .P .jc,
 .P .je,
 .P .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .P .ab,
 .P .ad,
@@ -5162,8 +5162,8 @@ td {
 .P .jd,
 .P .kb,
 .P .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .P .ba,
 .P .bc,
@@ -5181,8 +5181,8 @@ td {
 .P .ic,
 .P .ie,
 .P .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .P .aa {
   background: black !important;
@@ -5257,9 +5257,9 @@ td {
 .Q .jc,
 .Q .je,
 .Q .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .Q .ab,
 .Q .ad,
@@ -5273,8 +5273,8 @@ td {
 .Q .jd,
 .Q .kb,
 .Q .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .Q .ba,
 .Q .bc,
@@ -5292,8 +5292,8 @@ td {
 .Q .ic,
 .Q .ie,
 .Q .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .Q .aa {
   background: black !important;
@@ -5381,9 +5381,9 @@ td {
 .R .jc,
 .R .je,
 .R .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .R .ab,
 .R .ad,
@@ -5397,8 +5397,8 @@ td {
 .R .jd,
 .R .kb,
 .R .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .R .ba,
 .R .bc,
@@ -5416,8 +5416,8 @@ td {
 .R .ic,
 .R .ie,
 .R .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .R .aa {
   background: black !important;
@@ -5536,9 +5536,9 @@ td {
 .S .jc,
 .S .je,
 .S .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .S .ab,
 .S .ad,
@@ -5552,8 +5552,8 @@ td {
 .S .jd,
 .S .kb,
 .S .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .S .ba,
 .S .bc,
@@ -5571,8 +5571,8 @@ td {
 .S .ic,
 .S .ie,
 .S .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .S .aa {
   background: black !important;
@@ -5674,21 +5674,21 @@ td {
 .T .ec,
 .T .ka,
 .T .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .T .ab,
 .T .cb,
 .T .eb,
 .T .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .T .bb,
 .T .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .T .aa {
   background: black !important;
@@ -5752,9 +5752,9 @@ td {
 .U .jc,
 .U .je,
 .U .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .U .ab,
 .U .ad,
@@ -5768,8 +5768,8 @@ td {
 .U .jd,
 .U .kb,
 .U .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .U .ba,
 .U .bc,
@@ -5787,8 +5787,8 @@ td {
 .U .ic,
 .U .ie,
 .U .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .U .aa {
   background: black !important;
@@ -5866,9 +5866,9 @@ td {
 .V .jc,
 .V .je,
 .V .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .V .ab,
 .V .ad,
@@ -5882,8 +5882,8 @@ td {
 .V .jd,
 .V .kb,
 .V .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .V .ba,
 .V .bc,
@@ -5901,8 +5901,8 @@ td {
 .V .ic,
 .V .ie,
 .V .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .V .aa {
   background: black !important;
@@ -6008,9 +6008,9 @@ td {
 .W .jc,
 .W .je,
 .W .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .W .ab,
 .W .ad,
@@ -6024,8 +6024,8 @@ td {
 .W .jd,
 .W .kb,
 .W .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .W .ba,
 .W .bc,
@@ -6043,8 +6043,8 @@ td {
 .W .ic,
 .W .ie,
 .W .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .W .aa {
   background: black !important;
@@ -6122,9 +6122,9 @@ td {
 .X .jc,
 .X .je,
 .X .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .X .ab,
 .X .ad,
@@ -6138,8 +6138,8 @@ td {
 .X .jd,
 .X .kb,
 .X .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .X .ba,
 .X .bc,
@@ -6157,8 +6157,8 @@ td {
 .X .ic,
 .X .ie,
 .X .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .X .aa {
   background: black !important;
@@ -6238,9 +6238,9 @@ td {
 .Y .jc,
 .Y .je,
 .Y .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .Y .ab,
 .Y .ad,
@@ -6254,8 +6254,8 @@ td {
 .Y .jd,
 .Y .kb,
 .Y .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .Y .ba,
 .Y .bc,
@@ -6273,8 +6273,8 @@ td {
 .Y .ic,
 .Y .ie,
 .Y .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .Y .aa {
   background: black !important;
@@ -6370,9 +6370,9 @@ td {
 .X-alt .jc,
 .X-alt .je,
 .X-alt .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .X-alt .ab,
 .X-alt .ad,
@@ -6386,8 +6386,8 @@ td {
 .X-alt .jd,
 .X-alt .kb,
 .X-alt .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .X-alt .ba,
 .X-alt .bc,
@@ -6405,8 +6405,8 @@ td {
 .X-alt .ic,
 .X-alt .ie,
 .X-alt .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .X-alt .aa {
   background: black !important;
@@ -6530,9 +6530,9 @@ td {
 .Z .jc,
 .Z .je,
 .Z .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .Z .ab,
 .Z .ad,
@@ -6546,8 +6546,8 @@ td {
 .Z .jd,
 .Z .kb,
 .Z .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .Z .ba,
 .Z .bc,
@@ -6565,8 +6565,8 @@ td {
 .Z .ic,
 .Z .ie,
 .Z .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .Z .aa {
   background: black !important;
@@ -6656,21 +6656,21 @@ td {
 .one .ec,
 .one .ka,
 .one .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .one .ab,
 .one .cb,
 .one .eb,
 .one .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .one .bb,
 .one .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .one .aa {
   background: black !important;
@@ -6737,9 +6737,9 @@ td {
 .two .jc,
 .two .je,
 .two .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .two .ab,
 .two .ad,
@@ -6753,8 +6753,8 @@ td {
 .two .jd,
 .two .kb,
 .two .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .two .ba,
 .two .bc,
@@ -6772,8 +6772,8 @@ td {
 .two .ic,
 .two .ie,
 .two .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .two .aa {
   background: black !important;
@@ -6853,9 +6853,9 @@ td {
 .three .jc,
 .three .je,
 .three .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .three .ab,
 .three .ad,
@@ -6869,8 +6869,8 @@ td {
 .three .jd,
 .three .kb,
 .three .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .three .ba,
 .three .bc,
@@ -6888,8 +6888,8 @@ td {
 .three .ic,
 .three .ie,
 .three .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .three .aa {
   background: black !important;
@@ -6968,9 +6968,9 @@ td {
 .four .jc,
 .four .je,
 .four .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .four .ab,
 .four .ad,
@@ -6984,8 +6984,8 @@ td {
 .four .jd,
 .four .kb,
 .four .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .four .ba,
 .four .bc,
@@ -7003,8 +7003,8 @@ td {
 .four .ic,
 .four .ie,
 .four .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .four .aa {
   background: black !important;
@@ -7075,9 +7075,9 @@ td {
 .five .jc,
 .five .je,
 .five .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .five .ab,
 .five .ad,
@@ -7091,8 +7091,8 @@ td {
 .five .jd,
 .five .kb,
 .five .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .five .ba,
 .five .bc,
@@ -7110,8 +7110,8 @@ td {
 .five .ic,
 .five .ie,
 .five .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .five .aa {
   background: black !important;
@@ -7190,9 +7190,9 @@ td {
 .six .jc,
 .six .je,
 .six .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .six .ab,
 .six .ad,
@@ -7206,8 +7206,8 @@ td {
 .six .jd,
 .six .kb,
 .six .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .six .ba,
 .six .bc,
@@ -7225,8 +7225,8 @@ td {
 .six .ic,
 .six .ie,
 .six .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .six .aa {
   background: black !important;
@@ -7310,9 +7310,9 @@ td {
 .seven .jc,
 .seven .je,
 .seven .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .seven .ab,
 .seven .ad,
@@ -7326,8 +7326,8 @@ td {
 .seven .jd,
 .seven .kb,
 .seven .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .seven .ba,
 .seven .bc,
@@ -7345,8 +7345,8 @@ td {
 .seven .ic,
 .seven .ie,
 .seven .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .seven .aa {
   background: black !important;
@@ -7418,9 +7418,9 @@ td {
 .eight .jc,
 .eight .je,
 .eight .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .eight .ab,
 .eight .ad,
@@ -7434,8 +7434,8 @@ td {
 .eight .jd,
 .eight .kb,
 .eight .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .eight .ba,
 .eight .bc,
@@ -7453,8 +7453,8 @@ td {
 .eight .ic,
 .eight .ie,
 .eight .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .eight .aa {
   background: black !important;
@@ -7544,9 +7544,9 @@ td {
 .nine .jc,
 .nine .je,
 .nine .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .nine .ab,
 .nine .ad,
@@ -7560,8 +7560,8 @@ td {
 .nine .jd,
 .nine .kb,
 .nine .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .nine .ba,
 .nine .bc,
@@ -7579,8 +7579,8 @@ td {
 .nine .ic,
 .nine .ie,
 .nine .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .nine .aa {
   background: black !important;
@@ -7656,9 +7656,9 @@ td {
 .zero .jc,
 .zero .je,
 .zero .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .zero .ab,
 .zero .ad,
@@ -7672,8 +7672,8 @@ td {
 .zero .jd,
 .zero .kb,
 .zero .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .zero .ba,
 .zero .bc,
@@ -7691,8 +7691,8 @@ td {
 .zero .ic,
 .zero .ie,
 .zero .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .zero .aa {
   background: black !important;
@@ -7769,9 +7769,9 @@ td {
 .period .jc,
 .period .je,
 .period .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .period .ab,
 .period .ad,
@@ -7785,8 +7785,8 @@ td {
 .period .jd,
 .period .kb,
 .period .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .period .ba,
 .period .bc,
@@ -7804,8 +7804,8 @@ td {
 .period .ic,
 .period .ie,
 .period .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .period .ea {
   background: black !important;
@@ -7851,9 +7851,9 @@ td {
 .underscore .jc,
 .underscore .je,
 .underscore .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .underscore .ab,
 .underscore .ad,
@@ -7867,8 +7867,8 @@ td {
 .underscore .jd,
 .underscore .kb,
 .underscore .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .underscore .ba,
 .underscore .bc,
@@ -7886,8 +7886,8 @@ td {
 .underscore .ic,
 .underscore .ie,
 .underscore .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .underscore .ea {
   background: black !important;
@@ -7939,9 +7939,9 @@ td {
 .hyphen .jc,
 .hyphen .je,
 .hyphen .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .hyphen .ab,
 .hyphen .ad,
@@ -7955,8 +7955,8 @@ td {
 .hyphen .jd,
 .hyphen .kb,
 .hyphen .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .hyphen .ba,
 .hyphen .bc,
@@ -7974,8 +7974,8 @@ td {
 .hyphen .ic,
 .hyphen .ie,
 .hyphen .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .hyphen .cb {
   background: black !important;
@@ -8021,9 +8021,9 @@ td {
 .exclamation-point .jc,
 .exclamation-point .je,
 .exclamation-point .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .exclamation-point .ab,
 .exclamation-point .ad,
@@ -8037,8 +8037,8 @@ td {
 .exclamation-point .jd,
 .exclamation-point .kb,
 .exclamation-point .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .exclamation-point .ba,
 .exclamation-point .bc,
@@ -8056,8 +8056,8 @@ td {
 .exclamation-point .ic,
 .exclamation-point .ie,
 .exclamation-point .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .exclamation-point .aa {
   background: black !important;
@@ -8112,9 +8112,9 @@ td {
 .comma .jc,
 .comma .je,
 .comma .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .comma .ab,
 .comma .ad,
@@ -8128,8 +8128,8 @@ td {
 .comma .jd,
 .comma .kb,
 .comma .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .comma .ba,
 .comma .bc,
@@ -8147,8 +8147,8 @@ td {
 .comma .ic,
 .comma .ie,
 .comma .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .comma .ea {
   background: black !important;
@@ -8198,9 +8198,9 @@ td {
 .colon .jc,
 .colon .je,
 .colon .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .colon .ab,
 .colon .ad,
@@ -8214,8 +8214,8 @@ td {
 .colon .jd,
 .colon .kb,
 .colon .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .colon .ba,
 .colon .bc,
@@ -8233,8 +8233,8 @@ td {
 .colon .ic,
 .colon .ie,
 .colon .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .colon .ca {
   background: black !important;
@@ -8283,9 +8283,9 @@ td {
 .semi-colon .jc,
 .semi-colon .je,
 .semi-colon .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .semi-colon .ab,
 .semi-colon .ad,
@@ -8299,8 +8299,8 @@ td {
 .semi-colon .jd,
 .semi-colon .kb,
 .semi-colon .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .semi-colon .ba,
 .semi-colon .bc,
@@ -8318,8 +8318,8 @@ td {
 .semi-colon .ic,
 .semi-colon .ie,
 .semi-colon .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .semi-colon .ca {
   background: black !important;
@@ -8372,9 +8372,9 @@ td {
 .apostrophe .jc,
 .apostrophe .je,
 .apostrophe .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .apostrophe .ab,
 .apostrophe .ad,
@@ -8388,8 +8388,8 @@ td {
 .apostrophe .jd,
 .apostrophe .kb,
 .apostrophe .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .apostrophe .ba,
 .apostrophe .bc,
@@ -8407,8 +8407,8 @@ td {
 .apostrophe .ic,
 .apostrophe .ie,
 .apostrophe .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .apostrophe .ac {
   background: black !important;
@@ -8442,21 +8442,21 @@ td {
 .l-paren .ec,
 .l-paren .ka,
 .l-paren .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .l-paren .ab,
 .l-paren .cb,
 .l-paren .eb,
 .l-paren .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .l-paren .bb,
 .l-paren .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .l-paren .ac {
   background: black !important;
@@ -8505,21 +8505,21 @@ td {
 .r-paren .ec,
 .r-paren .ka,
 .r-paren .kc {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .r-paren .ab,
 .r-paren .cb,
 .r-paren .eb,
 .r-paren .kb {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .r-paren .bb,
 .r-paren .db {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .r-paren .aa {
   background: black !important;
@@ -8583,9 +8583,9 @@ td {
 .question .jc,
 .question .je,
 .question .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .question .ab,
 .question .ad,
@@ -8599,8 +8599,8 @@ td {
 .question .jd,
 .question .kb,
 .question .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .question .ba,
 .question .bc,
@@ -8618,8 +8618,8 @@ td {
 .question .ic,
 .question .ie,
 .question .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .question .aa {
   background: black !important;
@@ -8712,9 +8712,9 @@ td {
 .ampersand .jc,
 .ampersand .je,
 .ampersand .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .ampersand .ab,
 .ampersand .ad,
@@ -8728,8 +8728,8 @@ td {
 .ampersand .jd,
 .ampersand .kb,
 .ampersand .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .ampersand .ba,
 .ampersand .bc,
@@ -8747,8 +8747,8 @@ td {
 .ampersand .ic,
 .ampersand .ie,
 .ampersand .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .ampersand .aa {
   background: black !important;
@@ -8841,9 +8841,9 @@ td {
 .space .jc,
 .space .je,
 .space .jf {
-  width: 0.25rem;
-  height: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  height: 0.18rem;
+  max-width: 0.18rem !important;
 }
 .space .ab,
 .space .ad,
@@ -8857,8 +8857,8 @@ td {
 .space .jd,
 .space .kb,
 .space .kd {
-  height: 0.25rem !important;
-  min-height: 0.25rem !important;
+  height: 0.18rem !important;
+  min-height: 0.18rem !important;
 }
 .space .ba,
 .space .bc,
@@ -8876,6 +8876,6 @@ td {
 .space .ic,
 .space .ie,
 .space .if {
-  width: 0.25rem;
-  max-width: 0.25rem !important;
+  width: 0.18rem;
+  max-width: 0.18rem !important;
 }
