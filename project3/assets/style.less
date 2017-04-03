@@ -3,6 +3,7 @@
 @background-color: gold;
 @paper-color: white;
 @stroke-color: black;
+@interface-stroke: black;
 
 html, body {
   background: @background-color;
@@ -41,7 +42,7 @@ html, body {
   background: white;
   height: auto;
   z-index: 9999;
-  border: @stroke-width solid @stroke-color;
+  border: @stroke-width solid @interface-stroke;
   form {
     margin-bottom: -2px;
   }
@@ -62,7 +63,7 @@ html, body {
   width: 100%;
   height: 1.5em;
   text-align: right;
-  border-bottom: @stroke-width solid @stroke-color;
+  border-bottom: @stroke-width solid @interface-stroke;
   i {
     margin: .25em;
   }
@@ -82,7 +83,7 @@ html, body {
   position: absolute;
   bottom: .25em;
   left: .25em;
-  border: @stroke-width solid @stroke-color;
+  border: @stroke-width solid @interface-stroke;
   &:hover {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
     bottom: .2em;
@@ -112,7 +113,7 @@ html, body {
 //  left: 0;
 //  right: 0;
   @media screen and (min-width: 35.5em) { //FOR DESKTOP
-    border: 2rem solid white;
+    border: 2rem solid @paper-color;
     height: 85%;
     width: 30%;
     margin: 1% 1% 0 5%;
@@ -153,7 +154,7 @@ footer {
 @radius: 10rem;
 
 .stroke {
-  background: black !important;
+  background: @stroke-color !important;
 }
 
 //CHARACTER COMPONENTS
