@@ -111,15 +111,15 @@ html, body {
 //  bottom: 0;
 //  left: 0;
 //  right: 0;
-  @media (min-width: 35.5em) { //FOR DESKTOP
+  @media screen and (min-width: 35.5em) { //FOR DESKTOP
     border: 2rem solid white;
     height: 85%;
     width: 30%;
     margin: 1% 1% 0 5%;
   }
   @media print {
-//    width: 100% !important;
-//    height: 100% !important;
+    width: 7.5in !important;
+    height: 10in !important;
     page-break-after: always;
   }
 }
@@ -220,20 +220,33 @@ table, tr, td {
 
 .character {
   .character-universals;
-  .aa, .ac, .ae, 
-  .ca, .cc, .ce,
-  .ea, .ec, .ee,
-  .fa, .fc, .fe {.square}
-  .ab, .ad, .cb, .cd, .eb, .ed, .fb, .fd {.horizontal}
-  .ba, .bc, .be, .da, .dc, .de {.vertical}
-  .bb, .bd, .db, .dd {.both}
+  .aa, .ac, .ae, .af,  
+  .ca, .cc, .ce, .cf, 
+  .ea, .ec, .ee, .ef, 
+  .ka, .kc, .ke, .kf, 
+  .ha, .hc, .he, .hf, 
+  .ja, .jc, .je, .jf {.square}
+  .ab, .ad,
+  .cb, .cd,
+  .eb, .ed,
+  .hb, .hd,
+  .jb, .jd,
+  .kb, .kd {.horizontal}
+  .ba, .bc, .be, .bf,
+  .da, .dc, .de, .df,
+  .ga, .gc, .ge, .gf,
+  .ia, .ic, .ie, .if {.vertical}
+  .bb, .bd,
+  .db, .dd,
+  .gb, .gd,
+  .ib, .id {.both}
   
 }
 
 .character-narrow {
   .character-universals;
-  .aa, .ac, .ca, .cc, .ea, .ec, .fa, .fc {.horizontal}
-  .ab, .cb, .eb, .fb {.square}
+  .aa, .ac, .ca, .cc, .ea, .ec, .ka, .kc {.horizontal}
+  .ab, .cb, .eb, .kb {.square}
   .ba, .bc, .da, .dc, {.both}
   .bb, .db {.vertical}
 }
@@ -245,7 +258,7 @@ table, tr, td {
 .character-punctuation {
   .character-universals;
   width: @stroke-width;
-  .aa, .ca, .ea, .fa {.square;}
+  .aa, .ca, .ea, .ka {.square;}
   .ba, .da {.vertical}
 }
 //top left
@@ -275,14 +288,24 @@ table, tr, td {
 
 .a-l {
   .character;
-  .ca { .stroke; };
-  .cb { .stroke; };
-  .cc { .tr; };
-  .da { .tl; };
-  .dc { .stroke; };
-  .ea { .bl; };
-  .eb { .br; };
+  .eb { .stroke; };
   .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .tr; };
+  .ge { .stroke; };
+  .ha { .tl; };
+  .hb { .stroke; };
+  .hc { .stroke; };
+  .hd { .stroke; };
+  .he { .stroke; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .stroke; };
+
 }
 
 .b-l {
@@ -326,14 +349,24 @@ table, tr, td {
 
 .e-l {
   .character;
-  .ca { .tl; };
-  .cb { .stroke; };
-  .cc { .tr; };
-  .da { .stroke; };
-  .dc { .br; };
-  .ea { .bl; };
+  .ea { .tl; };
   .eb { .stroke; };
-  .ec { .br; };
+  .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .tr; };
+  .ga { .stroke; };
+  .ge { .stroke; };
+  .ha { .stroke; };
+  .hb { .stroke; };
+  .hc { .stroke; };
+  .hd { .stroke; };
+  .he { .br; };
+  .ia { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .br; };
 }
 
 .f-l {
@@ -346,7 +379,7 @@ table, tr, td {
   .cc { .stroke; };
   .db { .stroke; };
   .eb { .stroke; };
-  .fb { .br; };
+  .kb { .br; };
 }
 
 .g-l {
@@ -354,12 +387,14 @@ table, tr, td {
   .ca { .tl; };
   .cb { .tr; };
   .cc { .stroke; };
-  .da { .bl; };
+  .da { .stroke; };
   .dc { .stroke; };
-//  .db { border-bottom: .5rem solid red !important; };
+  .ea { .bl; };
+  .eb { .stroke; };
   .ec { .stroke; };
-  .fb { .stroke; };
-  .fc { .br; };
+  .jc { .stroke; };
+  .kb { .stroke; };
+  .kc { .br; };
 }
 
 .h-l {
@@ -376,24 +411,33 @@ table, tr, td {
 }
 
 .i-l {
-  .character-narrow;
-  .ab { .stroke; };
-  .ca { .stroke; };
-  .cb { .stroke; };
-  .db { .stroke; };
-  .eb { .bl; };
+  .character;
+  .cc { .stroke; };
+  .ea { .stroke; };
+  .eb { .stroke; };
   .ec { .stroke; };
+  .gc { .stroke; };
+  .hc { .stroke; };
+  .ic { .stroke; };
+  .jc { .bl; };
+  .jd { .stroke; };
+  .je { .stroke; };
 }
 
 .j-l {
-  .character-narrow;
-  .ab { .stroke; };
-  .ca { .stroke; };
-  .cb { .stroke; };
-  .db { .stroke; };
-  .eb { .stroke; };
-  .fa { .stroke; };
-  .fb { .br; };
+   .character;
+  .ce { .stroke; };
+  .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .stroke; };
+  .ge { .stroke; };
+  .he { .stroke; };
+  .ie { .stroke; };
+  .je { .stroke; };
+  .kb { .stroke; };
+  .kc { .stroke; };
+  .kd { .stroke; };
+  .ke { .br; };
 }
 
 .k-l {
@@ -401,12 +445,21 @@ table, tr, td {
   .aa { .stroke; };
   .ba { .stroke; };
   .ca { .stroke; };
-  .cb { .stroke; };
-  .cc { .br; };
   .da { .stroke; };
-  .dc { .stroke; };
   .ea { .stroke; };
-  .ec { .bl; };
+  .ec { .tl; };
+  .ee { .br; };
+  .ga { .stroke; };
+  .gc { .stroke; };
+  .ha { .stroke; };
+  .hb { .stroke; };
+  .hc { .stroke; };
+  .hd { .stroke; };
+  .he { .tr; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .stroke; };
+  .je { .stroke; };
 }
 
 .l-l {
@@ -464,7 +517,7 @@ table, tr, td {
   .ea { .stroke; };
   .eb { .stroke; };
   .ec { .br; };
-  .fa { .stroke; };
+  .ka { .stroke; };
 }
 
 .q-l {
@@ -477,7 +530,7 @@ table, tr, td {
   .ea { .bl; };
   .eb { .stroke; };
   .ec { .stroke; };
-  .fc { .bl; };
+  .kc { .bl; };
 }
 
 .r-l {
@@ -490,22 +543,39 @@ table, tr, td {
 }
 
 .s-l {
-  .character-narrow;
-  .cb { .tl; };
-  .cc { .stroke; };
-  .db { .stroke; };
-  .ea { .stroke; };
-  .eb { .br; };
+  .character;
+  .ea { .tl; };
+  .eb { .stroke; };
+  .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .tr; };
+  .ha { .bl; };
+  .hb { .stroke; };
+  .hc { .stroke; };
+  .hd { .stroke; };
+  .he { .tr; };
+  .ga { .stroke; };
+  .ie { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .br; };
 }
 
 .t-l {
-  .character-narrow;
-  .bb { .tl; };
-  .ca { .stroke; };
-  .cb { .stroke; };
-  .cc { .stroke; };
-  .db { .stroke; };
+  .character;
+  .cc { .tl; };
+  .dc { .stroke; };
+  .ea { .stroke; };
   .eb { .stroke; };
+  .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .stroke; };
+  .gc { .stroke; };
+  .hc { .stroke; };
+  .ic { .stroke; };
+  .jc { .stroke; };
 }
 
 .u-l {
@@ -521,11 +591,17 @@ table, tr, td {
 
 .v-l {
   .character;
-  .ca { .stroke; };
-  .cc { .stroke; };
-  .da { .bl; };
-  .dc { .br; };
-  .eb { .stroke; };
+  .ea { .stroke; };
+  .ee { .stroke; };
+  .ga { .stroke; };
+  .ge { .stroke; };
+  .ha { .bl; };
+  .hf { .tr; };
+  .hc { .tl; };
+  .he { .br; };
+  .if { .bl; };
+  .ic { .br; };
+  .jb { .stroke; };
 }
 
 .w-l {
@@ -540,16 +616,23 @@ table, tr, td {
 }
 
 .x-l {
-  .character-narrow;
-  .ca { .tr; };
-  .cc { .tl; };
-  .db { .stroke; };
-  .ea { .br; };
-  .ec { .bl; };
+  .character;
+  .ea { .stroke; };
+  .ee { .stroke; };
+  .ga { .bl; };
+  .ge { .br; };
+  .ha { .tl; };
+  .hb { .stroke; };
+  .hc { .stroke; };
+  .hd { .stroke; };
+  .he { .tr; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .stroke; };
+  .je { .stroke; };
 }
 
 .y-l {
-  .character;
   .character;
   .ca { .stroke; };
   .cc { .stroke; };
@@ -558,16 +641,28 @@ table, tr, td {
   .ea { .bl; };
   .eb { .stroke; };
   .ec { .stroke; };
-  .fc { .stroke; };
+  .jc { .stroke; };
+  .kb { .stroke; };
+  .kc { .br; };
 }
 
 .z-l {
-  .character-narrow;
-  .ca { .stroke; };
-  .cb { .stroke; };
-  .db { .stroke; };
+  .character;
+  .ea { .stroke; };
   .eb { .stroke; };
   .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .stroke; };
+  .ge { .br; };
+  .hb { .stroke; };
+  .hc { .stroke; };
+  .hd { .stroke; };
+  .ia { .stroke; };
+  .ja { .stroke; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .stroke; };
 }
 
 .A {
@@ -592,7 +687,7 @@ table, tr, td {
   .ab { .stroke; }; 
   .ac { .tr; };
   .ba { .stroke; };
-  .bc { .stroke; };
+  .bc { .br; };
   .ca { .stroke; };
   .cb { .stroke; };
   .cc { .tr; };
@@ -607,30 +702,50 @@ table, tr, td {
   .character;
   .aa { .tl; };
   .ab { .stroke; }; 
-  .ac { .tr; };
+  .ac { .stroke; }; 
+  .ad { .stroke; }; 
+  .ae { .tr; };
   .ba { .stroke; };
-  .bc { .stroke; };
+  .be { .stroke; };
   .ca { .stroke; };
   .da { .stroke; };
-  .ea { .bl; };
-  .eb { .stroke; };
-  .ec { .br; };
+  .ea { .stroke; };
+  .ga { .stroke; };
+  .ha { .stroke; };
+  .ia { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .br; };
 }
 
 .D {
   .character;
-  .aa { .stroke; };
+  .aa { .tl; };
   .ab { .stroke; }; 
-  .ac { .tr; };
+  .ac { .tr; }; 
   .ba { .stroke; };
   .bc { .stroke; };
   .ca { .stroke; };
-  .cc { .stroke; };
+  .cc { .bl; };
+  .cd { .stroke; };
+  .ce { .tr; };
   .da { .stroke; };
-  .dc { .stroke; };
+  .de { .stroke; };
   .ea { .stroke; };
-  .eb { .stroke; };
-  .ec { .br; };
+  .ee { .stroke; };
+  .ga { .stroke; };
+  .ge { .stroke; };
+  .ha { .stroke; };
+  .hc { .tl; };
+  .hd { .stroke; };
+  .he { .br; };
+  .ia { .stroke; };
+  .ic { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .br; };
 }
 
 .E {
@@ -667,17 +782,24 @@ table, tr, td {
   .ad { .stroke; }; 
   .ae { .tr; };
   .ba { .stroke; };
+  .be { .stroke; };
   .ca { .stroke; };
-  .cc { .bl; };
-  .cd { .stroke; };
-  .ce { .stroke; };
   .da { .stroke; };
-  .de { .stroke; };
-  .ea { .bl; };
-  .eb { .stroke; };
-  .ec { .stroke; };
-  .ed { .br; };
+  .ea { .stroke; };
+  .ec { .bl; };
+  .ed { .stroke; };
   .ee { .stroke; };
+  .ga { .stroke; };
+  .ge { .stroke; }; 
+  .ha { .stroke; };
+  .he { .stroke; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .br; };
+  .je { .stroke; };
 }
 
 .H {
@@ -710,29 +832,47 @@ table, tr, td {
 
 .J {
   .character;
-  .ac { .stroke; };
-  .bc { .stroke; };
-  .cc { .stroke; };
-  .da { .stroke; };
-  .dc { .stroke; };
-  .ea { .bl; };
-  .eb { .stroke; };
-  .ec { .br; };
+  .ae { .stroke; };
+  .be { .stroke; };
+  .ce { .stroke; };
+  .de { .stroke; };
+  .ee { .stroke; };
+  .ge { .stroke; };
+  .ha { .stroke; };
+  .he { .stroke; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .br; };
 }
 
 .K {
   .character;
   .aa { .stroke; };
-  .ac { .stroke; };
+  .ae { .stroke; };
   .ba { .stroke; };
-  .bc { .br; };
+  .be { .stroke; };
   .ca { .stroke; };
-  .cb { .stroke; };
-  .cc { .tr; };
+  .cc { .tl; };
+  .ce { .br; };
   .da { .stroke; };
   .dc { .stroke; };
   .ea { .stroke; };
+  .eb { .stroke; };
   .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .tr; };
+  .ga { .stroke; };
+  .ge { .stroke; };
+  .ha { .stroke; };
+  .he { .stroke; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .stroke; };
+  .je { .stroke; };
 }
 
 .L {
@@ -820,40 +960,62 @@ table, tr, td {
   .ea { .bl; };
   .eb { .stroke; };
   .ec { .tr; };
-  .fc { .bl; };
+  .kc { .bl; };
 }
 
 .R {
   .character;
   .aa { .stroke; };
   .ab { .stroke; };
-  .ac { .tr; };
+  .ac { .stroke; };
+  .ae { .tr; };
   .ba { .stroke; };
-  .bc { .stroke; };
+  .be { .stroke; };
   .ca { .stroke; };
-  .cb { .stroke; };
-  .cc { .br; };
+  .ce { .stroke; };
   .da { .stroke; };
-  .dc { .tr; };
+  .de { .stroke; };
   .ea { .stroke; };
+  .eb { .stroke; };
   .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .br; };
+  .ga { .stroke; };
+  .gc { .stroke; };
+  .ha { .stroke; };
+  .hc { .bl; };
+  .he { .tr; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .stroke; };
+  .je { .stroke; };
 }
 
 .S {
   .character;
   .aa { .tl; };
   .ab { .stroke; };
-  .ac { .tr; };
+  .ac { .stroke; };
+  .ad { .stroke; };
+  .ae { .tr; };
   .ba { .stroke; };
-//  .bc { .stroke; };
-  .ca { .bl; };
-  .cb { .stroke; };
-  .cc { .tr; };
-//  .da { .stroke; };
-  .dc { .stroke; };
+  .be { .stroke; };
+  .ca { .stroke; };
+  .da { .stroke; };
   .ea { .bl; };
   .eb { .stroke; };
-  .ec { .br; };
+  .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .tr; };
+  .ge { .stroke; };
+  .he { .stroke; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .bl; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .jd { .stroke; };
+  .je { .br; };
 }
 
 
@@ -886,14 +1048,24 @@ table, tr, td {
 .V {
   .character;
   .aa { .stroke; };
-  .ac { .stroke; };
+  .ae { .stroke; };
   .ba { .stroke; };
-  .bc { .stroke; };
+  .be { .stroke; };
   .ca { .stroke; };
-  .cc { .stroke; };
-  .da { .bl; };
-  .dc { .br; };
-  .eb { .stroke; };
+  .ce { .stroke; };
+  .da { .stroke; };
+  .de { .stroke; };
+  .ea { .bl; };
+  .ef { .tr; };
+  .ec { .tl; };
+  .ee { .br; };
+  .gf { .stroke; };
+  .gc { .stroke; };
+  .hf { .stroke; };
+  .hc { .stroke; };
+  .if { .bl; };
+  .ic { .br; };
+  .jb { .stroke; };
 }
 
 .W {
@@ -929,28 +1101,72 @@ table, tr, td {
 .Y {
   .character;
   .aa { .stroke; };
-  .ac { .stroke; };
+  .ae { .stroke; };
   .ba { .stroke; };
-  .bc { .stroke; };
-  .ca { .bl; };
-  .cb { .stroke; };
-  .cc { .stroke; };
-  .dc { .stroke; };
+  .be { .stroke; };
+  .ca { .stroke; };
+  .ce { .stroke; };
+  .da { .stroke; };
+  .de { .stroke; };
+  .ea { .bl; };
   .eb { .stroke; };
-  .ec { .br; };
+  .ec { .stroke; };
+  .ed { .stroke; };
+  .ee { .br; };
+  .gc { .stroke; };
+  .hc { .stroke; };
+  .ic { .stroke; };
+  .jc { .stroke; };
+}
+
+.X-alt {
+  .character;
+  .aa { .stroke; };
+  .ae { .stroke; };
+  .ba { .stroke; };
+  .be { .stroke; };
+  .ca { .bl; };
+  .cf { .tr; };
+  .cc { .tl; };
+  .ce { .br; };
+  .df { .bl; };
+  .dc { .br; };
+  .ef { .tl; };
+  .eb { .stroke; };
+  .ec { .tr; };
+  .gf { .stroke; };
+  .gc { .stroke; };
+  .ha { .tl; };
+  .hf { .br; };
+  .hc { .bl; };
+  .he { .tr; };
+  .ia { .stroke; };
+  .ie { .stroke; };
+  .ja { .stroke; };
+  .je { .stroke; };
 }
 
 .Z {
   .character;
   .aa { .stroke; };
+  .af { .stroke; };
   .ab { .stroke; };
   .ac { .stroke; };
-  .bc { .br; };
-  .cb { .stroke; };
-  .da { .tl; };
-  .ea { .stroke; };
+  .ae { .stroke; };
+  .be { .stroke; };
+  .cc { .tl; };
+  .ce { .br; };
+  .dc { .br; };
   .eb { .stroke; };
-  .ec { .stroke; };
+  .gf { .tl; };
+  .ha { .tl; };
+  .hf { .br; };
+  .ia { .stroke; };
+  .ja { .stroke; };
+  .jf { .stroke; };
+  .jb { .stroke; };
+  .jc { .stroke; };
+  .je { .stroke; };
 }
 
 .one {
@@ -1101,7 +1317,18 @@ table, tr, td {
 .period {
   .character;
   .ea { .stroke; };
+}
 
+.underscore {
+  .character;
+  .ea { .stroke; };
+  .eb { .stroke; };
+  .ec { .stroke; };
+}
+
+.hyphen {
+  .character;
+  .cb { .stroke; };
 }
 
 .exclamation-point {
@@ -1114,8 +1341,8 @@ table, tr, td {
 
 .comma {
   .character;
-  .da { .stroke; };
-  .ea { .br; };
+  .ea { .stroke; };
+  .ka { .br; };
 }
 
 .colon {
@@ -1127,18 +1354,13 @@ table, tr, td {
 .semi-colon {
   .character;
   .ca { .stroke; };
-  .ea { .br; };
+  .ea { .stroke; };
+  .ka { .br; };
 }
-
-.l-quote {
-  .character-punctuation;
-  .aa { .tl; };
-  .ba { .stroke };
-}
-.r-quote, .apostraphe {
-  .character-punctuation;
-  .aa { .stroke; };
-  .ba { .br };
+.apostrophe {
+  .character;
+  .ac { .stroke; };
+  .bc { .br };
 }
 
 .l-paren {
@@ -1148,7 +1370,7 @@ table, tr, td {
   .cb { .stroke; };
   .db { .stroke; };
   .eb { .bl; };
-  .fc { .bl; };
+  .kc { .bl; };
 }
 .r-paren {
   .character-narrow;
@@ -1157,7 +1379,7 @@ table, tr, td {
   .cb { .stroke; };
   .db { .stroke; };
   .eb { .br; };
-  .fa { .stroke; };
+  .ka { .stroke; };
 }
 
 .question {
@@ -1169,11 +1391,33 @@ table, tr, td {
   .ae { .tr; };
   .ba { .bl; };
   .be { .stroke; };
-  .cc { .tl; };
-  .cd { .stroke; };
-  .ce { .br; };
-  .dc { .br; };
-  .ec { .stroke; };
+  .ce { .stroke; };
+  .de { .stroke; };
+  .ec { .tl; };
+  .ed { .stroke; };
+  .ee { .br; };
+  .gc { .stroke; };
+  .hc { .stroke; };
+  .jc { .stroke; };
+}
+
+.ampersand {
+  .character;
+  .aa { .tl; };
+  .ab { .stroke; };
+  .ac { .stroke; };
+  .ad { .stroke; };
+  .ae { .tr; };
+  .ba { .bl; };
+  .be { .stroke; };
+  .ce { .stroke; };
+  .de { .stroke; };
+  .ec { .tl; };
+  .ed { .stroke; };
+  .ee { .br; };
+  .gc { .stroke; };
+  .hc { .stroke; };
+  .jc { .stroke; };
 }
 
 .space {

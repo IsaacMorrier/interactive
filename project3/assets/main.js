@@ -7,27 +7,25 @@ $(document).ready(function () {
   var printHeight = 11;
   var printWidth = 8.5;
   
-/*  ESCAPING
-function htmlEncode(value){
-  if (value) {
-    return jQuery('<div />').text(value).html();
-  } else {
-    return '';
+//  ESCAPING
+  function htmlEncode(value){
+    if (value) {
+      return jQuery('<div />').text(value).html();
+    } else {
+      return '';
+    }
   }
-}
 
-function htmlDecode(value) {
-  if (value) {
-    return $('<div />').html(value).text();
-  } else {
-    return '';
+  function htmlDecode(value) {
+    if (value) {
+      return $('<div />').html(value).text();
+    } else {
+      return '';
+    }
   }
-}
-
-$("#btn").click ( function () {
-  alert( htmlEncode ( $('#sourceText').text()) );
-} );
-*/
+//  
+//  test = htmlEncode('&');
+//  window.alert(test);
   
 //MAKE INPUT WINDOW DRAGGABLE
   $(function () {
@@ -102,7 +100,12 @@ $("#btn").click ( function () {
   
 // PRINT BUTTON
   $('.print-button').click(function(){
-     window.print();
+    var lines = $('.letters').length - 1;
+    var lineHeight = 10 / lines;
+    var oldHeight = $('.letters > div').height
+    $('.letters > div').css('height', lineHeight + "in");
+    window.print();
+    $('.letters > div').css('height', oldHeight);
   });
   
 });
