@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>An Interview with Justin Berry</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="assets/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+    <h3>A Conversation<br>between Isaac Morrier<br>and Justin Berry</h3>
+    </div>
+  <div class="runway">
+    <div id="isaac"><p>Isaac Morrier is a sociology student, graphic designer, and artist based in New Haven, CT. Most of his work lives <a href="http://isaacmorrier.com" target="_blank">here</a>.</p><h1>IM</h1>
+    </div>
+    <div id="justin"><p id="justin-info">Justin Berry is an artist and educator based in New Haven, CT. He's made <a href="http://i-would.com/" target="_blank">this</a> website for bomb magazine, <a href="http://thisisntme.com/2015.html#test" target="_blank">this</a> projection installation, <a href="http://thisisntme.com/2014.html#13" target="_blank">these</a> photographs taken from within video games, <a href="http://www.waymakergallery.com/exhibits/reintz/reintz01.html" target="_blank">this</a> fictional art gallery, and many other things, most of which are digital or online.</p>
+      <h1>JB</h1>
+    </div>
+    
+    <div class="int">
+      <h3>How has where you're from influenced the work you're doing now?</h3>
+      <p>I'm from Texas originally. If you were to look at the kinds of things that I do online, and what I'm interested in about being online, I'm not at all interested in speed. I feel like the average concern of people working digitally very often is the aggressive or rapid pace of consumption. <em>I'm looking at 300 different websites. I'm taking in all this stuff. I don't have the attention span for a 15 minute video, that's crazy.</em> For me, I've always been really interested in when time slows down and you're kind of where you are. Just being somewhere has always been valuable to me. I think that comes from Texas. In Texas there are these parking lots that are enormous, these football-field sized concrete expanses on every corner. And for most people these are horrible. They despise them. And I can totally respect that, because I do too sometimes. But I also love sometimes, on like a hot day, this super flatness and expanse and when you move from your car to wherever you're going you're crawling through this sludge of heat, this custard of warmth. It just makes you hyper present. I find value in that. And so that's probably affected a great deal of the work that I've made. I like making things that are slow, and that's unusual.</p>
+      <h3>What is the relationship between the education work that you do and your artistic practice?</h3>
+      <p>My work as an educator forces me to slow down, and makes it so that I don't have the luxury of taking things for granted in the way that I could if I wasn't an educator. If I wasn't an educator I could be the guy that paints blue paintings. And if those paintings sold and were in a lot of shows and people wrote critically about how blue they were I would be extremely satisfied, because well that's great. What's wrong with that? But if I'm sitting in a classroom and I'm talking with students all day and I'm fighting tooth and nail to get them to say, <em>But why is it blue?</em> <em>Why is it a painting?</em> <em>Is blue worth doing?</em> I don't have the luxury of not asking myself those same questions. So I would say that being an educator forces me to move in more directions than I otherwise would and it forces me to think about what I'm doing in a much more complicated and deep way than if I wasn't. I look at some of my friends that aren't teaching. And much of what they're doing is amazing, but they have like their thing that they do. And that's what they do, and they do it. And I just can't imagine making work that way after having the kinds of conversations that we have in the classroom.</p>
+      <h3>What are you working on now? What do you think comes next?</h3>
+      <p>I'm making this online piece. It's taking this essay that I wrote years ago, and putting it online, and I've thought about what form that would take. And when I was doing that, I started thinking about another thing that I wanted to work on, which was dealing with text and video and .GIFs. Basically I was wondering, <em>Could you write a meaningful essay, that exists online?</em> And given the context, what form would that take? And I guess I'm still trying to work through that problem. I don't really have a answer; I have things that I want to try. I tried this one piece. I'm really interested in seeing where that could go. Beyond that I'm interested in VR. I've kind of started experimenting with it as part of my education practice, and I'm really excited about the possibilities of that medium and where to go with it. In part because, as I was just saying, there's value in just being, in being still, in just being in a place, and I think that VR does that in a way better than anything I've ever experienced. You can make something in VR that is not adventurous or action, it's just slow. It's just about being somewhere. And there's something kind of magical about that. And I think I'm on those two roads of finding new and better ways to communicate online, and figuring out how to work in these virtual environments in meaningful ways. Maybe those are two directions that I'm moving in. There's really no good answer to <em>Where are you going next?</em> Where you've been is easy to describe because it's just a listing of all the things that you've done. If you ever have a clear easily-ready answer to what's coming next you've made a wrong decision at some point, because life just doesn't work that way. It's less <em>This is what I'm going to do</em> and more <em>I know where I want to start, I have no idea where it's going to lead.</em></p>
+    </div>
+  </div>
+  
+  <script>
+    $justin = $('#justin');
+    $isaac = $('#isaac');
+    $('#isaac a').click(function(e) {
+       e.stopPropagation();
+    });
+    $('#justin a').click(function(e) {
+      e.stopPropagation();
+    });
+    
+    $justin.click(function() {  
+     $justin.toggleClass('open');
+    });  
+    $isaac.click(function() {
+      $isaac.toggleClass('open');
+    });
+  </script>
+</body>
+
+</html>

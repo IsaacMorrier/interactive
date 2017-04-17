@@ -1,0 +1,97 @@
+@isaac-color: red;
+@justin-color: blue;
+
+#isaac, #justin {
+  background: white;
+  overflow: hidden;
+  font-size: 2em;
+  margin: .1em;
+  border-radius: .8em;
+  height: 1.5em;
+  width: 1.5em;
+  > h1 {
+    bottom: .6em;
+    text-align: right;
+    font-size: 1em;
+    position: fixed;
+  }
+  transition: .5s;
+  > p {
+    display: inline-block;
+    font-size: .5em;
+    text-align: left;
+    opacity: 0;
+    padding: 1em;
+    width: 12em;
+  }
+  
+}
+
+#isaac, {
+  position: fixed;
+  bottom: 1em;
+  left: .5em;
+  color: @isaac-color;
+  border: 2px solid @isaac-color;
+  > h1 {
+    left: .8em;
+  }
+}
+
+#justin {
+  position: fixed;
+  bottom: 1em;
+  right: .5em;
+  color: @justin-color;
+  border: 2px solid @justin-color;
+  > h1 {
+    right: .7em;
+  }
+}
+
+#justin.open, #isaac.open {
+  width: 7em;
+  height: 10em;
+  > p {
+    opacity: 1;
+    transition: .5s;
+  }
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.runway {
+  max-width: 36em;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 1px;
+}
+
+.int {
+ h3, p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  p {
+    color: @justin-color;
+    padding-left: 4em;
+  }
+  h3 {
+    color: @isaac-color;
+    padding-right: 4em;
+  }
+}
+
+#header {
+  font-size: .75em;
+  color: black;
+}
+
