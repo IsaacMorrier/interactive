@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box !important;
+  border-collapse: collapse;
+  transition-duration: 0s !important;
+}
+
+body, body > div, body > nav {
+  background: white !important;
+  color: rgba(0,0,0,0) !important;
+}
+
+iframe, img, input {
+  display: none !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, ul, ol, li, code, span, button, form, b, em, strong, i {
+  color: rgba(0,0,0,0) !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+}
+
+ul, ol, li {
+  list-style-type: none !important;
+}
+
+div div {
+  border: 20px solid black !important;
+}
+
+div div:nth-child(4n+3) {
+  background: repeating-linear-gradient(
+  135deg,
+  red,
+  red 20px,
+  white 20px,
+  white 40px
+);
+}
+div div:nth-child(4n) {
+  background: repeating-linear-gradient(
+  45deg,
+  blue,
+  blue 20px,
+  white 20px,
+  white 40px
+);
+}
+div div:nth-child(4n+2) {
+  background: repeating-linear-gradient(
+  0deg,
+  yellow,
+  yellow 20px,
+  white 20px,
+  white 40px
+);
+}
+div div:nth-child(4n+1) {
+    background: repeating-linear-gradient(
+  90deg,
+  black,
+  black 20px,
+  white 20px,
+  white 40px
+);
+}
+
+div > div > div > div div {
+  border-width: 0px !important;
+  background: rgba(0,0,0,0) !important;
+}
