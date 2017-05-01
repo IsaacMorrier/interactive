@@ -1,0 +1,18 @@
+#lewittCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+/*
+  height: 100%;
+  width: 100%;
+*/
+/*  background-color: rgba(255,0,0,0.3);*/
+  z-index: 9999999;
+}
+
+#lewittLine {
+  stroke: blue;
+  stroke-linecap: round;
+  stroke-width: 3;
+  z-index: 9999999;
+}

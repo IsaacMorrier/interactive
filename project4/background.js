@@ -6,9 +6,9 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 ////    code: 'document.body.style.backgroundColor="red"'
 ////  });
   
-  chrome.tabs.insertCSS({
-    file: 'main.css'
-  });
+//  chrome.tabs.insertCSS({
+//    file: 'main.css'
+//  });
   
 	// for the current tab, inject the "inject.js" file & execute it
 	chrome.tabs.executeScript(tab.ib, {
